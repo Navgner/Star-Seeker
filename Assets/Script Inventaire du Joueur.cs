@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerInventory : MonoBehaviour
 {
@@ -36,6 +35,6 @@ public class PlayerInventory : MonoBehaviour
     {
         // Activer le Canvas de fondu et démarrer le fondu au noir
         fadeController.gameObject.SetActive(true);
-        fadeController.StartFade();
+        fadeController.StartFadeOut();
     }
 }

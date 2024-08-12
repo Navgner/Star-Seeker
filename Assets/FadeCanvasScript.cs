@@ -10,11 +10,17 @@ public class FadeController : MonoBehaviour
 
     private void Start()
     {
-        // Make sure the image starts fully transparent
-        fadeImage.color = new Color(0, 0, 0, 0);
+        if (fadeImage == null)
+        {
+            fadeImage = GetComponent<Image>();
+        }
+
+        // Assurez-vous que l'image commence par être complètement noire pour le fondu d'entrée
+        fadeImage.color = new Color(0, 0, 0, 1);
+        StartCoroutine(FadeFromBlack());
     }
 
-    public void StartFade()
+    public void StartFadeOut()
     {
         StartCoroutine(FadeToBlack());
     }
@@ -32,7 +38,24 @@ public class FadeController : MonoBehaviour
             yield return null;
         }
 
-        // When the fade is complete, load the end game scene
+        // When the fade out is complete, load the end game scene
         SceneManager.LoadScene("EndGameScene");
+    }
+
+    private IEnumerator FadeFromBlack()
+    {
+        float elapsedTime = 0f;
+        Color color = fadeImage.color;
+
+        while (elapsedTime < fadeDuration)
+        {
+            elapsedTime += Time.deltaTime;
+            color.a = 1 - Mathf.Clamp01(elapsedTime / fadeDuration);
+            fadeImage.color = color;
+            yield return null;
+        }
+
+        // Make sure the fade image is fully transparent after the fade in
+        fadeImage.color = new Color(0, 0, 0, 0);
     }
 }
