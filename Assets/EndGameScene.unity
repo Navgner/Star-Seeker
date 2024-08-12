@@ -543,8 +543,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -721.2955, y: -404.28992}
-  m_SizeDelta: {x: 688.4208, y: 108.8102}
+  m_AnchoredPosition: {x: -721.2955, y: -402.37}
+  m_SizeDelta: {x: 688.4208, y: 211.9064}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &515234485
 MonoBehaviour:
@@ -559,7 +559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.46590045, g: 0.14173195, b: 0.6132076, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -567,21 +567,22 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 09e331ca2f11a354696f42260d750f7a, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Te voil\xE0 ressuscit\xE9, \xF4 dragon ! Prends forme et contemple cette
-    terre, transform\xE9e en ton absence. D\xE9vore les ombres envahissantes, d\xE9vore-les, 
-    restaure l'\xE9quilibre et retourne \xE0 ton sommeil \xE9ternel."
+  m_Text: "Te voil\xE0 ressuscit\xE9, \xF4 noble dragon ! \nReprends ta forme c\xE9leste
+    et contemple cette terre, transform\xE9e en ton absence. D\xE9vore les ombres
+    envahissantes, d\xE9vore-les, afin de restaurer l'\xE9quilibre et retourne \xE0
+    ton sommeil \xE9ternel."
 --- !u!222 &515234486
 CanvasRenderer:
   m_ObjectHideFlags: 0
