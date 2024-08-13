@@ -2,17 +2,8 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
-    public AudioClip collectSound; // Ajoutez cette ligne pour le son de collecte
-    private AudioSource audioSource; // Déclarez la variable audioSource au niveau de la classe
+    public AudioClip collectSound; // Déclarez un AudioClip pour le son de collecte
 
-    private void Start()
-    {
-        // Ajoutez un AudioSource au même GameObject si ce n'est pas déjà fait
-        audioSource = gameObject.AddComponent<AudioSource>();
-        audioSource.clip = collectSound;
-        audioSource.spatialBlend = 0f; // Définir à 0 pour le son en 2D
-    }
-    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -22,9 +13,12 @@ public class Collectible : MonoBehaviour
             {
                 playerInventory.AddCollectible();
 
-                 // Jouer le son de collecte
-                AudioSource.PlayClipAtPoint(collectSound, transform.position);
-                
+                // Jouer le son de collecte en utilisant l'AudioManager
+                if (AudioManager.Instance != null)
+                {
+                    AudioManager.Instance.audioSource.PlayOneShot(collectSound);
+                }
+
                 Destroy(gameObject); // Détruit l'objet une fois collecté
             }
         }
