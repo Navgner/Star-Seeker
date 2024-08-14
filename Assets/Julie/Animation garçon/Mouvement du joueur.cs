@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private bool isGrounded;
     private bool wasJumping;
+    private bool isFalling;
 
     // Stocker l'échelle initiale pour le retour arrière
     private Vector3 initialScale;
@@ -25,6 +26,16 @@ public class PlayerController : MonoBehaviour
         float moveInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
 
+        // Mise à jour des animations
+        if (moveInput != 0)
+        {
+            animator.SetBool("isWalking", true);
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+        }
+
         // Gérer le saut
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
@@ -34,14 +45,27 @@ public class PlayerController : MonoBehaviour
             wasJumping = true; // Indique que le joueur est en train de sauter
         }
 
+        // Détecter la chute
+        if (!isGrounded && rb.velocity.y < 0)
+        {
+            isFalling = true;
+            animator.SetBool("isFalling", true);
+        }
+        else
+        {
+            isFalling = false;
+            animator.SetBool("isFalling", false);
+        }
+
+        // Gérer le retour en Idle
+        if (wasJumping && isGrounded)
+        {
+            animator.SetBool("isWalking", false);
+            wasJumping = false; // Réinitialiser le statut de saut
+        }
+
         // Mettre à jour l'état de `isGrounded` dans l'Animator
         animator.SetBool("isGrounded", isGrounded);
-
-        // Mise à jour des animations de marche/idle
-        if (isGrounded)
-        {
-            animator.SetBool("isWalking", moveInput != 0);
-        }
 
         // Flip le joueur sans changer l'échelle verticale
         if (moveInput < 0)
@@ -56,7 +80,8 @@ public class PlayerController : MonoBehaviour
         if (collision.contacts[0].normal.y > 0.5)
         {
             isGrounded = true;
-            wasJumping = false;
+            animator.SetBool("isGrounded", true);
+            animator.SetBool("isFalling", false); // Assurez-vous d'arrêter l'animation de chute lorsque le joueur atterrit
         }
     }
 
@@ -66,6 +91,7 @@ public class PlayerController : MonoBehaviour
         if (collision.contacts[0].normal.y > 0.5)
         {
             isGrounded = false;
+            animator.SetBool("isGrounded", false);
         }
     }
 }
