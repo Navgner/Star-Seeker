@@ -2017,8 +2017,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cee081f88aa0edb4a93546e690a41140, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 1141565060}
-  offset: {x: 1, y: 2.6, z: 0}
+  playerTransform: {fileID: 1664387341}
+  offset: {x: 1.4, y: 1.6, z: 0}
   displayDuration: 5
 --- !u!1 &290194425
 GameObject:
@@ -7715,12 +7715,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 960138f0450083543ad1d17e1352019d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1141565060 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4212235226361802, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1141565044}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1141565062 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114680495344679792, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
@@ -127479,11 +127473,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1664387341}
+  - component: {fileID: 1664387342}
   - component: {fileID: 1664387340}
   - component: {fileID: 1664387338}
   - component: {fileID: 1664387337}
   - component: {fileID: 1664387336}
-  - component: {fileID: 1664387342}
   - component: {fileID: 1664387343}
   m_Layer: 0
   m_Name: StarChildPlayer
@@ -127573,7 +127567,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 2.4
   m_Material: {fileID: 6200000, guid: c325d97ce27776645bad5015a39d864d, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -127684,8 +127678,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5fb3ec96d3fbfb44b71ba9e7784c926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  jumpForce: 20
+  moveSpeed: 5.5
+  jumpForce: 15
 --- !u!1 &1666341566
 GameObject:
   m_ObjectHideFlags: 0
