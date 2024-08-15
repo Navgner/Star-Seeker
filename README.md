@@ -13,9 +13,9 @@ Procédure d'installation et de lancement
 Modules, libraires, scripts utilisés
 
 Copyrights, informations de licence, références
-Musique d'ambiance : Guiding Light, Helios by Alex Diggelmann
-Sound effect des étoiles : "Accept" de ViRiX (David McKee)
-Background : CraftPix.net 2D Game Assets (pour les nuages et la verdure) et rh0 (pour le gradient)
+- Musique d'ambiance : Guiding Light, Helios by Alex Diggelmann
+- Sound effect des étoiles : "Accept" de ViRiX (David McKee)
+- Background : CraftPix.net 2D Game Assets (pour les nuages et la verdure) et rh0 (pour le gradient)
 
 Contexte de développement
 
