@@ -11,7 +11,7 @@ public class PlayerInventory : MonoBehaviour
     void Start()
     {
         UpdateUI();
-        dialogueManager.ShowDialogue("Je sens les étoiles partout, elles m'appellent..."); // Afficher le premier message
+        dialogueManager.ShowDialogue("Je sens les ombres partout... mais les étoiles brillent toujours, elle m'appellent..."); // Afficher le premier message
     }
 
     public void AddCollectible()
@@ -21,7 +21,7 @@ public class PlayerInventory : MonoBehaviour
 
         if (collectedCount == 1)
         {
-            dialogueManager.ShowDialogue("Oh, je reconnais cette étoile, elle appartient à Ladon ! Le dragon céleste de Héra, ancien gardien des pommes dorées des jardins des Hespérides ! Mmmmh … Les autres ne doivent pas être loin … ");
+            dialogueManager.ShowDialogue("Oh, je reconnais cette étoile, elle appartient à Ladon ! Le dragon céleste de Héra, ancien gardien des pommes dorées des jardins des Hespérides. Mmmmh… Les autres ne doivent pas être loin… ");
         }
         if (collectedCount == 6)
         {
