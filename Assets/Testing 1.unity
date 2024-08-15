@@ -132,6 +132,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 114157640717073608, guid: 2d2745d2a8668e644a921a4848c9bc90,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114157640717073608, guid: 2d2745d2a8668e644a921a4848c9bc90,
+        type: 3}
       propertyPath: representedDamageable
       value: 
       objectReference: {fileID: 1141565049}
@@ -1558,7 +1563,7 @@ GameObject:
   - component: {fileID: 284444372}
   - component: {fileID: 284444374}
   m_Layer: 5
-  m_Name: Dialogue Ellen UI
+  m_Name: Dialogue StarChild UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -130301,7 +130306,7 @@ GameObject:
   - component: {fileID: 2092058075}
   - component: {fileID: 2092058079}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Dialogue Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -130830,10 +130835,10 @@ SceneRoots:
   - {fileID: 1664387341}
   - {fileID: 1141565044}
   - {fileID: 126852620}
+  - {fileID: 844800697}
   - {fileID: 978096695}
   - {fileID: 1456740997}
   - {fileID: 540330046}
-  - {fileID: 844800697}
   - {fileID: 1035277942}
   - {fileID: 1511379367}
   - {fileID: 1954229093}
