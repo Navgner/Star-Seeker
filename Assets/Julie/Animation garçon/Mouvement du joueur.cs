@@ -4,94 +4,83 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
+    public Transform groundCheck; // Référence pour le point de vérification du sol
+    public float groundCheckRadius = 0.2f; // Rayon du raycast pour vérifier le sol
+    public LayerMask groundLayer; // Masque de couche pour définir ce qui est considéré comme sol
+
     private Rigidbody2D rb;
     private Animator animator;
     private bool isGrounded;
     private bool wasJumping;
-    private bool isFalling;
 
-    // Stocker l'échelle initiale pour le retour arrière
     private Vector3 initialScale;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        // Sauvegarder l'échelle initiale
         initialScale = transform.localScale;
     }
 
     void Update()
     {
+        HandleMovement();
+        HandleJump();
+        HandleAnimation();
+        FlipCharacter();
+    }
+
+    private void HandleMovement()
+    {
         float moveInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
+    }
 
-        // Mise à jour des animations
-        if (moveInput != 0)
-        {
-            animator.SetBool("isWalking", true);
-        }
-        else
-        {
-            animator.SetBool("isWalking", false);
-        }
+    private void HandleJump()
+    {
+        // Raycast pour vérifier si le joueur est au sol
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
-        // Gérer le saut
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             animator.SetTrigger("Jump");
-            isGrounded = false;
-            wasJumping = true; // Indique que le joueur est en train de sauter
+            wasJumping = true;
         }
+    }
 
-        // Détecter la chute
-        if (!isGrounded && rb.velocity.y < 0)
+    private void HandleAnimation()
+    {
+        float verticalVelocity = rb.velocity.y;
+        bool isFalling = verticalVelocity < -0.1f; // Seuil pour éviter les petites erreurs
+
+        if (isGrounded)
         {
-            isFalling = true;
-            animator.SetBool("isFalling", true);
+            animator.SetBool("isGrounded", true);
+            if (wasJumping)
+            {
+                animator.SetBool("isWalking", false);
+                wasJumping = false;
+            }
+            animator.SetBool("isFalling", false); // Assurez-vous que l'animation de chute est désactivée
         }
         else
         {
-            isFalling = false;
-            animator.SetBool("isFalling", false);
-        }
-
-        // Gérer le retour en Idle
-        if (wasJumping && isGrounded)
-        {
-            animator.SetBool("isWalking", false);
-            wasJumping = false; // Réinitialiser le statut de saut
-        }
-
-        // Mettre à jour l'état de `isGrounded` dans l'Animator
-        animator.SetBool("isGrounded", isGrounded);
-
-        // Flip le joueur sans changer l'échelle verticale
-        if (moveInput < 0)
-            transform.localScale = new Vector3(initialScale.x, initialScale.y, initialScale.z); // Normal
-        else if (moveInput > 0)
-            transform.localScale = new Vector3(-initialScale.x, initialScale.y, initialScale.z); // Inversé
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        // Détection de sol pour permettre le saut
-        if (collision.contacts[0].normal.y > 0.5)
-        {
-            isGrounded = true;
-            animator.SetBool("isGrounded", true);
-            animator.SetBool("isFalling", false); // Assurez-vous d'arrêter l'animation de chute lorsque le joueur atterrit
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        // Lorsque le personnage quitte le sol, le marquer comme non au sol
-        if (collision.contacts[0].normal.y > 0.5)
-        {
-            isGrounded = false;
             animator.SetBool("isGrounded", false);
+            animator.SetBool("isFalling", isFalling);
+        }
+
+        // Mise à jour de l'animation de marche
+        animator.SetBool("isWalking", Mathf.Abs(rb.velocity.x) > 0);
+    }
+
+    private void FlipCharacter()
+    {
+        float moveInput = Input.GetAxis("Horizontal");
+        if (moveInput != 0)
+        {
+            // Inverser l'échelle x du personnage en fonction de la direction du mouvement
+            transform.localScale = new Vector3(-initialScale.x * Mathf.Sign(moveInput), initialScale.y, initialScale.z);
         }
     }
 }
