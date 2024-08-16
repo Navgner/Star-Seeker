@@ -36,5 +36,5 @@ Star Seeker est un jeu de plateforme exploratif et cozy. Le but est de collecter
 
 **Contexte de développement**
 
-Ce jeu a été fait dans le cadre du cours "Développement de jeu vidéo 2D" de Isaac Pante.
+Ce jeu a été fait dans le cadre du cours "Développement de jeu vidéo 2D" dispensé par Isaac Pante (SLI, Lettres, UNIL)), année 2024, comme cours interdisciplinaires SSP, Psychologie, Unil.
 
