@@ -35,6 +35,14 @@ Star Seeker est un jeu de plateforme exploratif et cozy. Le but est de collecter
     *https://clan-du-dragon.com/blogs/blog-le-clan-du-dragon/constellation-du-dragon 
     https://fr.wikipedia.org/wiki/Dragon_(constellation)*
 
+Outils Utilisés:
+- UnitySweeper - Un outil pour nettoyer les projets Unity.
+  URL: https://github.com/nom-du-repo/unitysweeper
+  Licence: MIT License
+  Copyright (c) 2022 notiontheory
+  La licence MIT complète est disponible à l'adresse suivante :
+  https://github.com/nom-du-repo/unitysweeper/blob/main/LICENSE
+
 
 **Contexte de développement**
 
