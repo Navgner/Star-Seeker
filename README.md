@@ -36,7 +36,9 @@ Star Seeker est un jeu de plateforme exploratif et cozy. Le but est de collecter
     https://fr.wikipedia.org/wiki/Dragon_(constellation)*
 
 Outils Utilisés:
-- ChatGPT pour la création et correction de codes
+- ChatGPT - Pour créer et résoudre du codage. Majoritairement utilisé.
+  - Fourni par: OpenAI
+  - URL: [ChatGPT](https://www.openai.com/chatgpt)
 - Logiciel utilisé pour le game art : Krita
 - UnitySweeper - Un outil pour nettoyer les projets Unity.
   URL: https://github.com/nom-du-repo/unitysweeper
