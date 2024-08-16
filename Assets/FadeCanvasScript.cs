@@ -44,16 +44,24 @@ public class FadeController : MonoBehaviour
         // Load the new scene
         SceneManager.LoadScene(sceneName);
 
-        // After scene is loaded, update the music
-        yield return new WaitForSeconds(0.1f); // Petit délai pour s'assurer que la scène est complètement chargée
+        // Ensure scene is fully loaded before updating the music
+        yield return new WaitForSeconds(0.1f);
 
+        // Stop current music if needed
         if (newMusic != null)
         {
-            // Stop current music and fade in new music
             StartCoroutine(FadeAudioSource.StartFade(audioSource, fadeDuration, 0f));
+            yield return new WaitForSeconds(fadeDuration); // Wait for fade-out to complete
+
+            // Update to the new music
             audioSource.clip = newMusic;
             audioSource.Play();
             StartCoroutine(FadeAudioSource.StartFade(audioSource, fadeDuration, 1f));
+        }
+        else
+        {
+            // If no new music, just ensure old music fades out
+            yield return new WaitForSeconds(fadeDuration); // Wait for fade-out to complete
         }
     }
 
