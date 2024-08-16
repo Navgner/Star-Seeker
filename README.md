@@ -1,6 +1,6 @@
 **Star Seeker**
 
-Star Seeker est un jeu de plateforme exploratif et cozy. Le but est de collecter des étoiles afin de reconstituer la constellation du dragon et ainsi faire revenir la lumière dans les cieux et chasser les ombres. Il a pour but d'offrir une expérience réconfortante tout en étant ludique, avec les connaissances touchant à cette constellation et sa mythologie. On espère ainsi attiser la curiosité du joueur sur ce sujet et qu'il s'instruise de son côté par la suite.
+Star Seeker est un jeu de plateforme exploratif et cozy. Le but est de collecter des étoiles afin de reconstituer la constellation du dragon et ainsi faire revenir la lumière dans les cieux et chasser les ombres. Le joueur pourra se déplacer et sauter pour collecter les étoiles pendant que le protagoniste fera quelques brefs commentaires durant la collecte. Il a pour but d'offrir une expérience réconfortante tout en étant ludique, avec les connaissances touchant à cette constellation et sa mythologie. On espère ainsi attiser la curiosité du joueur sur ce sujet et qu'il s'instruise de son côté par la suite.
 
 
 **Captures d'écran du jeu :**
