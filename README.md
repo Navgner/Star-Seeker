@@ -29,6 +29,8 @@ Star Seeker est un jeu de plateforme exploratif et cozy. Le but est de collecter
     "Simple Nature Pixel Background for Video Game" and "Pixelated sunset behind the clouds game background" by CraftPix.net 2D Game Assets (Compilation des images et retexturatisation), https://opengameart.org/content/simple-nature-pixel-background-for-video-game, https://opengameart.org/content/pixelated-sunset-behind-the-clouds-game-background, https://static.opengameart.org/OGA-BY-3.0.txt
 
   "18 Gradient Skies (640x480)" by rh0 (modifié et intégré dans le fond du ciel étoilé), https://opengameart.org/content/18-gradient-skies-640x480, https://creativecommons.org/publicdomain/zero/1.0/
+- Police pour les crédits et la page d'informations supplémentaires : Monotype Corsiva de Word
+- Logiciel utilisé pour le game art : Krita
 - Ressources scientifiques :
     *https://clan-du-dragon.com/blogs/blog-le-clan-du-dragon/constellation-du-dragon 
     https://fr.wikipedia.org/wiki/Dragon_(constellation)*
