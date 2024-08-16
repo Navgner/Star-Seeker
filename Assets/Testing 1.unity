@@ -5133,6 +5133,7 @@ GameObject:
   - component: {fileID: 1035277942}
   - component: {fileID: 1035277941}
   - component: {fileID: 1035277943}
+  - component: {fileID: 1035277944}
   m_Layer: 5
   m_Name: Audio Source
   m_TagString: Untagged
@@ -5263,8 +5264,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce5f7166cb1e68a408d7099ac24ce9d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1035277944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035277940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd5c22ca52b06945b30e51244e06962, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   audioSource: {fileID: 1035277941}
-  fadeOutDuration: 2
+  menuMusic: {fileID: 0}
+  gameMusic: {fileID: 8300000, guid: 22866a11bf64c8f46ac318f2f4c34144, type: 3}
+  endMusic: {fileID: 0}
 --- !u!1 &1055064179
 GameObject:
   m_ObjectHideFlags: 0

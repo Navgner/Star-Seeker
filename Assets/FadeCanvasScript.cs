@@ -7,7 +7,7 @@ public class FadeController : MonoBehaviour
 {
     public Image fadeImage;
     public float fadeDuration = 2f;
-    public string sceneToLoad; // Champ public pour spécifier la scène à charger
+    public string sceneToLoad;
 
     private void Start()
     {
@@ -15,8 +15,6 @@ public class FadeController : MonoBehaviour
         {
             fadeImage = GetComponent<Image>();
         }
-
-        // Assurez-vous que l'image commence par être complètement noire pour le fondu d'entrée
         fadeImage.color = new Color(0, 0, 0, 1);
         StartCoroutine(FadeFromBlack());
     }
@@ -39,10 +37,24 @@ public class FadeController : MonoBehaviour
             yield return null;
         }
 
-        // When the fade out is complete, load the specified scene
+        // Chargement de la scène
         if (!string.IsNullOrEmpty(sceneToLoad))
         {
             SceneManager.LoadScene(sceneToLoad);
+
+            // Assure-toi que la musique de la nouvelle scène est jouée
+            if (sceneToLoad == "MainMenu")
+            {
+                MusicManager.Instance.PlayMusic(MusicManager.Instance.menuMusic, fadeDuration);
+            }
+            else if (sceneToLoad == "GameScene")
+            {
+                MusicManager.Instance.PlayMusic(MusicManager.Instance.gameMusic, fadeDuration);
+            }
+            else if (sceneToLoad == "EndScene")
+            {
+                MusicManager.Instance.PlayMusic(MusicManager.Instance.endMusic, fadeDuration);
+            }
         }
         else
         {
@@ -62,8 +74,6 @@ public class FadeController : MonoBehaviour
             fadeImage.color = color;
             yield return null;
         }
-
-        // Make sure the fade image is fully transparent after the fade in
         fadeImage.color = new Color(0, 0, 0, 0);
     }
 }
