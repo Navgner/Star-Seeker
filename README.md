@@ -17,7 +17,8 @@ Star Seeker est un jeu de plateforme exploratif et cozy. Le but est de collecter
 **Modules, libraires, scripts utilisés**
 - Made with Unity technologies
 - Scripts : 2D Game Kit from Unity, https://assetstore.unity.com/packages/templates/tutorials/2d-game-kit-107098, https://unity.com/fr/legal/as-terms
-- Menu buttons made with ProjectMakers
+- Menu buttons made with Alpaca Studio
+- ProjectMakers
 
 
 **Copyrights, informations de licence, références**
