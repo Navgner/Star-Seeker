@@ -1,12 +1,14 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class MenuController : MonoBehaviour
+public class MainMenuController : MonoBehaviour
 {
-    // Méthode pour charger la scène
-    public void StartGame()
+    public FadeController fadeController;
+    public Button playButton;
+
+    private void Start()
     {
-        // Nom de la scène à charger
-        SceneManager.LoadScene("testing 1");
+        playButton.onClick.AddListener(() =>
+            fadeController.StartFadeOut("Testing 1", fadeController.gameMusic)); // Musique du jeu
     }
 }

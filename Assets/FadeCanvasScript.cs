@@ -7,7 +7,10 @@ public class FadeController : MonoBehaviour
 {
     public Image fadeImage;
     public float fadeDuration = 2f;
-    public string sceneToLoad;
+    public AudioSource audioSource; // Assurez-vous d'assigner ce composant dans l'inspecteur
+    public AudioClip menuMusic;
+    public AudioClip gameMusic;
+    public AudioClip endMusic;
 
     private void Start()
     {
@@ -19,16 +22,17 @@ public class FadeController : MonoBehaviour
         StartCoroutine(FadeFromBlack());
     }
 
-    public void StartFadeOut()
+    public void StartFadeOut(string sceneName, AudioClip newMusic = null)
     {
-        StartCoroutine(FadeToBlack());
+        StartCoroutine(FadeToBlack(sceneName, newMusic));
     }
 
-    private IEnumerator FadeToBlack()
+    private IEnumerator FadeToBlack(string sceneName, AudioClip newMusic = null)
     {
         float elapsedTime = 0f;
         Color color = fadeImage.color;
 
+        // Fade out effect
         while (elapsedTime < fadeDuration)
         {
             elapsedTime += Time.deltaTime;
@@ -37,28 +41,19 @@ public class FadeController : MonoBehaviour
             yield return null;
         }
 
-        // Chargement de la scène
-        if (!string.IsNullOrEmpty(sceneToLoad))
-        {
-            SceneManager.LoadScene(sceneToLoad);
+        // Load the new scene
+        SceneManager.LoadScene(sceneName);
 
-            // Assure-toi que la musique de la nouvelle scène est jouée
-            if (sceneToLoad == "MainMenu")
-            {
-                MusicManager.Instance.PlayMusic(MusicManager.Instance.menuMusic, fadeDuration);
-            }
-            else if (sceneToLoad == "GameScene")
-            {
-                MusicManager.Instance.PlayMusic(MusicManager.Instance.gameMusic, fadeDuration);
-            }
-            else if (sceneToLoad == "EndScene")
-            {
-                MusicManager.Instance.PlayMusic(MusicManager.Instance.endMusic, fadeDuration);
-            }
-        }
-        else
+        // After scene is loaded, update the music
+        yield return new WaitForSeconds(0.1f); // Petit délai pour s'assurer que la scène est complètement chargée
+
+        if (newMusic != null)
         {
-            Debug.LogWarning("Scene name is not specified in FadeController.");
+            // Stop current music and fade in new music
+            StartCoroutine(FadeAudioSource.StartFade(audioSource, fadeDuration, 0f));
+            audioSource.clip = newMusic;
+            audioSource.Play();
+            StartCoroutine(FadeAudioSource.StartFade(audioSource, fadeDuration, 1f));
         }
     }
 
@@ -75,5 +70,18 @@ public class FadeController : MonoBehaviour
             yield return null;
         }
         fadeImage.color = new Color(0, 0, 0, 0);
+    }
+
+    private void Update()
+    {
+        // Gérer les transitions spécifiques par les touches de l'utilisateur
+        if (SceneManager.GetActiveScene().name == "EndGameScene" && Input.GetKeyDown(KeyCode.Space))
+        {
+            StartFadeOut("SceneCredits", menuMusic);
+        }
+        else if (SceneManager.GetActiveScene().name == "SceneCredits" && Input.GetKeyDown(KeyCode.Space))
+        {
+            StartFadeOut("MainMenu", menuMusic);
+        }
     }
 }

@@ -2480,7 +2480,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1444827042}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce5f7166cb1e68a408d7099ac24ce9d5, type: 3}
   m_Name: 
@@ -2499,8 +2499,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1444827046}
   menuMusic: {fileID: 8300000, guid: 81a073c32b2377e4d88a16a31d15f298, type: 3}
-  gameMusic: {fileID: 0}
-  endMusic: {fileID: 0}
+  gameMusic: {fileID: 8300000, guid: 22866a11bf64c8f46ac318f2f4c34144, type: 3}
+  endMusic: {fileID: 8300000, guid: f14529b524e0465469f93ad61b724bac, type: 3}
 --- !u!82 &1444827046
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2515,7 +2515,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class MusicManager : MonoBehaviour
 {
@@ -21,7 +22,7 @@ public class MusicManager : MonoBehaviour
         }
     }
 
-    public AudioSource audioSource; // Assure-toi d'assigner une AudioSource dans l'inspecteur
+    public AudioSource audioSource;
     public AudioClip menuMusic;
     public AudioClip gameMusic;
     public AudioClip endMusic;
@@ -41,19 +42,25 @@ public class MusicManager : MonoBehaviour
 
     public void PlayMusic(AudioClip clip, float fadeDuration)
     {
-        if (audioSource.clip == clip)
+        StartCoroutine(PlayMusicCoroutine(clip, fadeDuration));
+    }
+
+    private IEnumerator PlayMusicCoroutine(AudioClip clip, float fadeDuration)
+    {
+        // Fade out the current music
+        if (audioSource.isPlaying)
         {
-            return; // La musique est déjà jouée
+            yield return StartCoroutine(FadeAudioSource.StartFade(audioSource, fadeDuration, 0f));
         }
 
-        StartCoroutine(FadeAudioSource.StartFade(audioSource, fadeDuration, 0f)); // Fade-out musique actuelle
+        // Change the clip and fade in the new music
         audioSource.clip = clip;
-        StartCoroutine(FadeAudioSource.StartFade(audioSource, fadeDuration, 1f)); // Fade-in nouvelle musique
         audioSource.Play();
+        yield return StartCoroutine(FadeAudioSource.StartFade(audioSource, fadeDuration, 1f));
     }
 
     public void StopMusic(float fadeDuration)
     {
-        StartCoroutine(FadeAudioSource.StartFade(audioSource, fadeDuration, 0f)); // Fade-out musique
+        StartCoroutine(FadeAudioSource.StartFade(audioSource, fadeDuration, 0f));
     }
 }
