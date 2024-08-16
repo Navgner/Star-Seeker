@@ -7,6 +7,7 @@ public class FadeController : MonoBehaviour
 {
     public Image fadeImage;
     public float fadeDuration = 2f;
+    public string sceneToLoad; // Champ public pour spécifier la scène à charger
 
     private void Start()
     {
@@ -38,8 +39,15 @@ public class FadeController : MonoBehaviour
             yield return null;
         }
 
-        // When the fade out is complete, load the end game scene
-        SceneManager.LoadScene("EndGameScene");
+        // When the fade out is complete, load the specified scene
+        if (!string.IsNullOrEmpty(sceneToLoad))
+        {
+            SceneManager.LoadScene(sceneToLoad);
+        }
+        else
+        {
+            Debug.LogWarning("Scene name is not specified in FadeController.");
+        }
     }
 
     private IEnumerator FadeFromBlack()
