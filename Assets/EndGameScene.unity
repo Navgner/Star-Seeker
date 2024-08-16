@@ -132,8 +132,6 @@ GameObject:
   m_Component:
   - component: {fileID: 83943779}
   - component: {fileID: 83943778}
-  - component: {fileID: 83943777}
-  - component: {fileID: 83943780}
   m_Layer: 0
   m_Name: MusicManager
   m_TagString: Untagged
@@ -141,22 +139,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &83943777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 83943775}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd5c22ca52b06945b30e51244e06962, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSource: {fileID: 83943778}
-  menuMusic: {fileID: 0}
-  gameMusic: {fileID: 0}
-  endMusic: {fileID: 8300000, guid: f14529b524e0465469f93ad61b724bac, type: 3}
 --- !u!82 &83943778
 AudioSource:
   m_ObjectHideFlags: 0
@@ -268,18 +250,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &83943780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 83943775}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce5f7166cb1e68a408d7099ac24ce9d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &122357942
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,10 +284,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeImage: {fileID: 1204061464}
   fadeDuration: 2
-  audioSource: {fileID: 83943778}
-  menuMusic: {fileID: 8300000, guid: 81a073c32b2377e4d88a16a31d15f298, type: 3}
-  gameMusic: {fileID: 8300000, guid: 22866a11bf64c8f46ac318f2f4c34144, type: 3}
-  endMusic: {fileID: 8300000, guid: f14529b524e0465469f93ad61b724bac, type: 3}
+  sceneToLoad: SceneCredits
+  musicClip: {fileID: 0}
 --- !u!114 &122357944
 MonoBehaviour:
   m_ObjectHideFlags: 0

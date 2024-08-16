@@ -21,11 +21,11 @@ public class PlayerInventory : MonoBehaviour
 
         if (collectedCount == 1)
         {
-            dialogueManager.ShowDialogue("Oh, je reconnais cette étoile, elle appartient à Ladon !");
+            dialogueManager.ShowDialogue("Oh, je reconnais cette étoile...");
         }
         else if (collectedCount == 6)
         {
-            dialogueManager.ShowDialogue("Elles sont vraiment belles ces étoiles...");
+            dialogueManager.ShowDialogue("Elles sont vraiment belles...");
         }
         else if (collectedCount == 12)
         {
@@ -48,7 +48,14 @@ public class PlayerInventory : MonoBehaviour
 
     private void EndGame()
     {
-        fadeController.gameObject.SetActive(true);
-        fadeController.StartFadeOut("EndGameScene", fadeController.endMusic); // Musique de fin
+        if (fadeController != null)
+        {
+            fadeController.gameObject.SetActive(true);
+            fadeController.StartFadeOut("EndGameScene", null);  // No music change needed here
+        }
+        else
+        {
+            Debug.LogError("fadeController is not assigned.");
+        }
     }
 }

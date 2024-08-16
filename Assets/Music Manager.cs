@@ -3,35 +3,17 @@ using System.Collections;
 
 public class MusicManager : MonoBehaviour
 {
-    private static MusicManager instance;
-
-    public static MusicManager Instance
-    {
-        get
-        {
-            if (instance == null)
-            {
-                instance = FindObjectOfType<MusicManager>();
-                if (instance == null)
-                {
-                    GameObject obj = new GameObject("MusicManager");
-                    instance = obj.AddComponent<MusicManager>();
-                }
-            }
-            return instance;
-        }
-    }
-
+    public static MusicManager Instance { get; private set; }
     public AudioSource audioSource;
-    public AudioClip menuMusic;
-    public AudioClip gameMusic;
+    public AudioClip defaultMusicClip;
     public AudioClip endMusic;
+    public AudioClip gameMusic;
 
     private void Awake()
     {
-        if (instance == null)
+        if (Instance == null)
         {
-            instance = this;
+            Instance = this;
             DontDestroyOnLoad(gameObject);
         }
         else
@@ -40,27 +22,78 @@ public class MusicManager : MonoBehaviour
         }
     }
 
-    public void PlayMusic(AudioClip clip, float fadeDuration)
+    private void Start()
     {
-        StartCoroutine(PlayMusicCoroutine(clip, fadeDuration));
-    }
-
-    private IEnumerator PlayMusicCoroutine(AudioClip clip, float fadeDuration)
-    {
-        // Fade out the current music
-        if (audioSource.isPlaying)
+        if (audioSource == null)
         {
-            yield return StartCoroutine(FadeAudioSource.StartFade(audioSource, fadeDuration, 0f));
+            audioSource = GetComponent<AudioSource>();
         }
 
-        // Change the clip and fade in the new music
-        audioSource.clip = clip;
-        audioSource.Play();
-        yield return StartCoroutine(FadeAudioSource.StartFade(audioSource, fadeDuration, 1f));
+        if (audioSource.clip == null && defaultMusicClip != null)
+        {
+            PlayMusic(defaultMusicClip);
+        }
     }
 
-    public void StopMusic(float fadeDuration)
+    public void PlayMusic(AudioClip clip, float fadeDuration = 1f)
     {
-        StartCoroutine(FadeAudioSource.StartFade(audioSource, fadeDuration, 0f));
+        if (audioSource.isPlaying)
+        {
+            StartCoroutine(FadeOutAndPlayNewClip(clip, fadeDuration));
+        }
+        else
+        {
+            audioSource.clip = clip;
+            audioSource.volume = 0f;
+            audioSource.Play();
+            StartCoroutine(FadeIn(fadeDuration));
+        }
+    }
+
+    private IEnumerator FadeOutAndPlayNewClip(AudioClip newClip, float fadeDuration)
+    {
+        yield return StartCoroutine(FadeOut(fadeDuration));
+        audioSource.clip = newClip;
+        audioSource.Play();
+        StartCoroutine(FadeIn(fadeDuration));
+    }
+
+    private IEnumerator FadeIn(float fadeDuration)
+    {
+        float startVolume = 0f;
+        audioSource.volume = startVolume;
+
+        while (audioSource.volume < 1f)
+        {
+            audioSource.volume += Time.deltaTime / fadeDuration;
+            yield return null;
+        }
+
+        audioSource.volume = 1f;
+    }
+
+    private IEnumerator FadeOut(float fadeDuration)
+    {
+        float startVolume = audioSource.volume;
+
+        while (audioSource.volume > 0f)
+        {
+            audioSource.volume -= startVolume * Time.deltaTime / fadeDuration;
+            yield return null;
+        }
+
+        audioSource.Stop();
+        audioSource.volume = startVolume;
+    }
+
+    public void StopMusic(float fadeDuration = 1f)
+    {
+        StartCoroutine(FadeOut(fadeDuration));
+    }
+
+    public void StopMusicImmediately()
+    {
+        audioSource.Stop();
+        audioSource.volume = 1f;
     }
 }

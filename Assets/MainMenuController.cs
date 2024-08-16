@@ -9,6 +9,6 @@ public class MainMenuController : MonoBehaviour
     private void Start()
     {
         playButton.onClick.AddListener(() =>
-            fadeController.StartFadeOut("Testing 1", fadeController.gameMusic)); // Musique du jeu
+            fadeController.StartFadeOut("Testing 1", null));  // No music change needed here
     }
 }
