@@ -1,0 +1,1858 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>91a8e7fc484885a4888e48cebad5abc1</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2024-06-01T15:39:43+02:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.AssetCollector</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a9dc9d819619baa4ab8d269feab261fe</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2024-06-01T15:39:43+02:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.AssetReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>91078baed2741cc43bd88125486ac54f</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2024-06-01T15:39:43+02:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.ClassReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>57c044605abc7564e9a805bd02309d75</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/CollectionData.cs</fileName>
+    <timeStamp>2024-06-01T15:39:43+02:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.CollectionData</string>
+      <string>UnitySweeper.TypeDate</string>
+      <string>UnitySweeper.IReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c1265b2940ee97e41bf61181e8652210</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2024-06-01T15:39:43+02:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.FindUnusedAssetsWindow</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bfce4c90f08d1c24c9198d5a967face6</guid>
+    <fileName>Assets/Plugins/UnitySweeper/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2024-06-01T15:39:43+02:00</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.ShaderReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>435c50b6688b50f4aa8b384739a72e87</guid>
+    <fileName>Assets/AudioManagerPourétoile.cs</fileName>
+    <timeStamp>2024-08-13T13:30:37.45595+02:00</timeStamp>
+    <typeFullName>
+      <string>AudioManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1081ce7c7c02630449c4b86de16bc99f</guid>
+    <fileName>Assets/FadeAudioSource.cs</fileName>
+    <timeStamp>2024-08-16T22:14:20.471545+02:00</timeStamp>
+    <typeFullName>
+      <string>FadeAudioSource</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f26004e9a7e88de4f83697bcea6cf97e</guid>
+    <fileName>Assets/FadeCanvasScript.cs</fileName>
+    <timeStamp>2024-08-16T23:19:25.0302534+02:00</timeStamp>
+    <typeFullName>
+      <string>FadeController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ce5f7166cb1e68a408d7099ac24ce9d5</guid>
+    <fileName>Assets/GameMusicFadeOut.cs</fileName>
+    <timeStamp>2024-08-16T22:14:23.7897969+02:00</timeStamp>
+    <typeFullName>
+      <string>GameMusicFadeOut</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e91d302ef6ce6ff47abfa1f20c61b5b5</guid>
+    <fileName>Assets/Inventory.cs</fileName>
+    <timeStamp>2024-08-06T15:18:23.488555+02:00</timeStamp>
+    <typeFullName>
+      <string>Inventory</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c9e8b4033c22da54ca263905d0d18790</guid>
+    <fileName>Assets/MainMenuController.cs</fileName>
+    <timeStamp>2024-08-16T23:03:57.1946064+02:00</timeStamp>
+    <typeFullName>
+      <string>MainMenuController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0cd5c22ca52b06945b30e51244e06962</guid>
+    <fileName>Assets/Music Manager.cs</fileName>
+    <timeStamp>2024-08-16T23:20:42.6594525+02:00</timeStamp>
+    <typeFullName>
+      <string>PersistentMusicManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2804b2ee19fcd314e8feadb75da0de83</guid>
+    <fileName>Assets/MusicFadeIn.cs</fileName>
+    <timeStamp>2024-08-16T18:32:58.5379044+02:00</timeStamp>
+    <typeFullName>
+      <string>MusicFadeIn</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6b3510014b382084cb3726ea60a5a648</guid>
+    <fileName>Assets/Script Collectible étoile collectable.cs</fileName>
+    <timeStamp>2024-08-13T13:32:14.0976492+02:00</timeStamp>
+    <typeFullName>
+      <string>Collectible</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bf25e6802e8664f4c9a1b58d906c252e</guid>
+    <fileName>Assets/Script Inventaire du Joueur.cs</fileName>
+    <timeStamp>2024-08-16T23:26:41.9287564+02:00</timeStamp>
+    <typeFullName>
+      <string>PlayerInventory</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6b1aaf462bf0b074490d13cdab3e73b5</guid>
+    <fileName>Assets/Script UI étoile HautDroite.cs</fileName>
+    <timeStamp>2024-08-07T22:39:35.963887+02:00</timeStamp>
+    <typeFullName>
+      <string>UIManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>30b01bb271b233c41a55e92f86a14f56</guid>
+    <fileName>Assets/script.cs</fileName>
+    <timeStamp>2024-08-06T15:19:43.7310129+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.CollectibleStar</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>88174c7306ebcaa40b35864235339bd7</guid>
+    <fileName>Assets/sous titre accessoir.cs</fileName>
+    <timeStamp>2024-08-15T19:37:47.9274656+02:00</timeStamp>
+    <typeFullName>
+      <string>AdjustTextSize</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>33910ea3a9f4af843a1cccdca1096502</guid>
+    <fileName>Assets/Sous titres.cs</fileName>
+    <timeStamp>2024-08-15T19:47:17.8438486+02:00</timeStamp>
+    <typeFullName>
+      <string>DialogueManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b5fb3ec96d3fbfb44b71ba9e7784c926</guid>
+    <fileName>Assets/Julie/Animation garçon/Mouvement du joueur.cs</fileName>
+    <timeStamp>2024-08-15T01:57:33.9141296+02:00</timeStamp>
+    <typeFullName>
+      <string>PlayerController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>905e28f26b270ce49b75decf47cddf79</guid>
+    <fileName>Assets/Julie/Animation garçon/PlayerCharacter2.cs</fileName>
+    <timeStamp>2024-08-14T23:10:38.0543113+02:00</timeStamp>
+    <typeFullName>
+      <string>PlayerCharacter2</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>40ccaac2b2a3342edbc299d2be2c9f3c</guid>
+    <fileName>Assets/2DGamekit/Scripts/AI/BT.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8144666+02:00</timeStamp>
+    <typeFullName>
+      <string>BTAI.BTState</string>
+      <string>BTAI.BT</string>
+      <string>BTAI.BTNode</string>
+      <string>BTAI.Branch</string>
+      <string>BTAI.Decorator</string>
+      <string>BTAI.Sequence</string>
+      <string>BTAI.Selector</string>
+      <string>BTAI.Action</string>
+      <string>BTAI.Condition</string>
+      <string>BTAI.ConditionalBranch</string>
+      <string>BTAI.While</string>
+      <string>BTAI.Block</string>
+      <string>BTAI.Root</string>
+      <string>BTAI.Repeat</string>
+      <string>BTAI.RandomSequence</string>
+      <string>BTAI.Wait</string>
+      <string>BTAI.Trigger</string>
+      <string>BTAI.SetBool</string>
+      <string>BTAI.WaitForAnimatorState</string>
+      <string>BTAI.SetActive</string>
+      <string>BTAI.WaitForAnimatorSignal</string>
+      <string>BTAI.Terminate</string>
+      <string>BTAI.Log</string>
+      <string>BTAI.IBTDebugable</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>17b275c8a01d84f449f5f184c7ee5dda</guid>
+    <fileName>Assets/2DGamekit/Scripts/AI/GunnerBeam.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8154632+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.GunnerBeam</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>572cff7f64f494cd386550eec2fd9976</guid>
+    <fileName>Assets/2DGamekit/Scripts/AI/GunnerBeamController.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8154632+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.GunnerBeamController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>62ea6cfe8534042f28f9f339c3e3d60c</guid>
+    <fileName>Assets/2DGamekit/Scripts/AI/GunnerProjectile.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8154632+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.GunnerProjectile</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>50fbe2886caae46c7918ca00e65f2c96</guid>
+    <fileName>Assets/2DGamekit/Scripts/AI/InstantiateObject.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8164602+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.InstantiateObject</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9f3e6e784bd7045b98c806d4665dcbbe</guid>
+    <fileName>Assets/2DGamekit/Scripts/AI/MissileGolem.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8164602+02:00</timeStamp>
+    <typeFullName>
+      <string>MissileGolem</string>
+      <string>MissileGolem+BossRound</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c381bbe1f187e4c01b1e62b740cf0f39</guid>
+    <fileName>Assets/2DGamekit/Scripts/AI/SendSignal.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8164602+02:00</timeStamp>
+    <typeFullName>
+      <string>BTAI.SendSignal</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e9b7416e48adb2046a74969c1f9618ef</guid>
+    <fileName>Assets/2DGamekit/Scripts/Audio/AudioSurface.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8174568+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.AudioSurface</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>66ea4a2980856b344b7f005ab141f425</guid>
+    <fileName>Assets/2DGamekit/Scripts/Audio/BackgroundMusicPlayer.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8184533+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.BackgroundMusicPlayer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f8c216d103379474eb95ad8002ef9d2d</guid>
+    <fileName>Assets/2DGamekit/Scripts/Audio/MixerSliderLink.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8184533+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.MixerSliderLink</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6abcd50fdc97f3e409820b29f208d704</guid>
+    <fileName>Assets/2DGamekit/Scripts/Audio/RandomAudioPlayer.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8184533+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.RandomAudioPlayer</string>
+      <string>Gamekit2D.RandomAudioPlayer+TileOverride</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c7324e8fe3ae3474b925bf82688ea67f</guid>
+    <fileName>Assets/2DGamekit/Scripts/Core/CameraShaker.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8349552+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.CameraShaker</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>834cd6a946627184a831105d03c63fef</guid>
+    <fileName>Assets/2DGamekit/Scripts/Core/Checkpoint.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8349552+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.Checkpoint</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>69345d561483d404fa7c9f9746cfc23c</guid>
+    <fileName>Assets/2DGamekit/Scripts/Core/InteractOnButton.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8349552+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.InteractOnButton</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>952ea542eeb4eb44fbfc14f014d6d334</guid>
+    <fileName>Assets/2DGamekit/Scripts/Core/InteractOnButton2D.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8359518+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.InteractOnButton2D</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>419f7c30e37b6463c8b0d4d2b4946378</guid>
+    <fileName>Assets/2DGamekit/Scripts/Core/InteractOnCollision.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8359518+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.InteractOnCollision</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2499950edfed1e341841e61780cd4c49</guid>
+    <fileName>Assets/2DGamekit/Scripts/Core/InteractOnCollision2D.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8359518+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.InteractOnCollision2D</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a6e38ccf902f148e69c411da9fcde5cf</guid>
+    <fileName>Assets/2DGamekit/Scripts/Core/InteractOnTrigger.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8369484+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.InteractOnTrigger</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1ede24c4245f11547942614c14a3a23b</guid>
+    <fileName>Assets/2DGamekit/Scripts/Core/InteractOnTrigger2D.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8369484+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.InteractOnTrigger2D</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ea9dfe00ad5fa4db7857a85c2f5009f5</guid>
+    <fileName>Assets/2DGamekit/Scripts/Core/InventoryController.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8379449+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.InventoryController</string>
+      <string>Gamekit2D.InventoryController+InventoryEvent</string>
+      <string>Gamekit2D.InventoryController+InventoryChecker</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bc93d5840381f48f98861bd30ee34b00</guid>
+    <fileName>Assets/2DGamekit/Scripts/Core/InventoryItem.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8379449+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.InventoryItem</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>73851854e451ebf4b9c0cc5528996cc7</guid>
+    <fileName>Assets/2DGamekit/Scripts/Core/LayerMaskExtensions.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8379449+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.LayerMaskExtensions</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>23691b4749982a741b871407cadeefaf</guid>
+    <fileName>Assets/2DGamekit/Scripts/Core/ObjectPool.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8389415+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.ObjectPool`3</string>
+      <string>Gamekit2D.ObjectPool`2</string>
+      <string>Gamekit2D.PoolObject`3</string>
+      <string>Gamekit2D.PoolObject`2</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bd4eb3cbad623b04696b04f0e35feb06</guid>
+    <fileName>Assets/2DGamekit/Scripts/Core/TimedDisabling.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8389415+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.TimedDisabling</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>710f6cbd3b3004e49b2a8b37ec1d4cb1</guid>
+    <fileName>Assets/2DGamekit/Scripts/Effect/BossDoorStateManager.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8399385+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.BossDoorStateManager</string>
+      <string>Gamekit2D.BossDoorStateManager+DoorState</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>afc6a1ba6c8adcb4d9c0e1caceba8160</guid>
+    <fileName>Assets/2DGamekit/Scripts/Effect/DropShadow.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8409349+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.DropShadow</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1cd61bb4c74204c19860c29925b241e1</guid>
+    <fileName>Assets/2DGamekit/Scripts/Effect/Grenade.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8409349+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.Grenade</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ab369be0d39c5e0448971bf91bac9ed7</guid>
+    <fileName>Assets/2DGamekit/Scripts/Effect/GunnerLightning.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8419316+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.GunnerLightning</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8eda3446553e43e4c8a30ea21be54736</guid>
+    <fileName>Assets/2DGamekit/Scripts/Effect/GunnerShieldEffect.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8419316+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.GunnerShieldEffect</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ed676321431d86648aca4c73f62de86c</guid>
+    <fileName>Assets/2DGamekit/Scripts/Effect/SpriteColorChange.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8429281+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.SpriteColorChange</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9a4a5bef6c1874445a14d10d62db2177</guid>
+    <fileName>Assets/2DGamekit/Scripts/Effect/WaterArea.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8429281+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.WaterArea</string>
+      <string>Gamekit2D.WaterAreaEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>97933d85c6acddc4bb95f77ca8cc0280</guid>
+    <fileName>Assets/2DGamekit/Scripts/Localization/OriginalPhrases.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8449218+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.OriginalPhrases</string>
+      <string>Gamekit2D.Phrase</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1fb98d8da5f4a244490d8e8d0cfef54a</guid>
+    <fileName>Assets/2DGamekit/Scripts/Localization/TranslatedPhrases.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8459183+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.TranslatedPhrases</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>46995d2034b920c4eb74446a18af725a</guid>
+    <fileName>Assets/2DGamekit/Scripts/Localization/TranslatedText.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8459183+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.TranslatedText</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1642d1bce2be42245b5c7cd798fb4696</guid>
+    <fileName>Assets/2DGamekit/Scripts/Localization/Translator.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8469153+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.Translator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7299b9ddcea94dc44b52449f9008bd85</guid>
+    <fileName>Assets/2DGamekit/Scripts/Objects/EnemySpawner.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8489083+02:00</timeStamp>
+    <typeFullName>
+      <string>Enemy</string>
+      <string>Gamekit2D.EnemySpawner</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8c42efcc722f4304e95e8bf8937d1393</guid>
+    <fileName>Assets/2DGamekit/Scripts/Objects/HealthPickup.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.849905+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.HealthPickup</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bf7e3aaa0b4ee4d268ac0a0d077f881b</guid>
+    <fileName>Assets/2DGamekit/Scripts/Objects/HubDoor.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.849905+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.HubDoor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bbb7937584fc2cf48986d1fd98adc86f</guid>
+    <fileName>Assets/2DGamekit/Scripts/Objects/ObjectPositionResetter.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.849905+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.ObjectPositionResetter</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cf52f9aab8a01b74ba933ffd3dc3c51d</guid>
+    <fileName>Assets/2DGamekit/Scripts/Objects/WeaponPickup.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8528949+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.WeaponPickup</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2af78733760a433428be623392433ff1</guid>
+    <fileName>Assets/2DGamekit/Scripts/SceneManagement/CharacterStateSetter.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8538915+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.CharacterStateSetter</string>
+      <string>Gamekit2D.CharacterStateSetter+ParameterSetter</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c9228c922c5ca2c429f3adbabf70958d</guid>
+    <fileName>Assets/2DGamekit/Scripts/SceneManagement/GameObjectTeleporter.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.855885+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.GameObjectTeleporter</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c39c99586ddaad34aa97df2a339d5b91</guid>
+    <fileName>Assets/2DGamekit/Scripts/SceneManagement/IDataPersister.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8568817+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.IDataPersister</string>
+      <string>Gamekit2D.DataSettings</string>
+      <string>Gamekit2D.DataSettings+PersistenceType</string>
+      <string>Gamekit2D.Data</string>
+      <string>Gamekit2D.Data`1</string>
+      <string>Gamekit2D.Data`2</string>
+      <string>Gamekit2D.Data`3</string>
+      <string>Gamekit2D.Data`4</string>
+      <string>Gamekit2D.Data`5</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fc7a88d04baf18846afd971ed358aaef</guid>
+    <fileName>Assets/2DGamekit/Scripts/SceneManagement/PersistentDataManager.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8568817+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.PersistentDataManager</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c9cd3095aceafe346bb1e58dbe85be8d</guid>
+    <fileName>Assets/2DGamekit/Scripts/SceneManagement/SavedData.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8578782+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.SavedData</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0892e1c9a7e8e804ab70eb0ba2066711</guid>
+    <fileName>Assets/2DGamekit/Scripts/SceneManagement/SceneController.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8578782+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.SceneController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>aebaf3cf1884d384da371c728483509b</guid>
+    <fileName>Assets/2DGamekit/Scripts/SceneManagement/SceneControllerWrapper.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.858875+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.SceneControllerWrapper</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ea43622560fd1ad4e9aa5f3d591fbf22</guid>
+    <fileName>Assets/2DGamekit/Scripts/SceneManagement/SceneNameAttribute.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.858875+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.SceneNameAttribute</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>458c3f6aef15a8b4ba8e7a951284d29c</guid>
+    <fileName>Assets/2DGamekit/Scripts/SceneManagement/SceneTransitionDestination.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.858875+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.SceneTransitionDestination</string>
+      <string>Gamekit2D.SceneTransitionDestination+DestinationTag</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>070aa26860bb7b54e972039f2e9d7f38</guid>
+    <fileName>Assets/2DGamekit/Scripts/SceneManagement/ScreenFader.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8598716+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.ScreenFader</string>
+      <string>Gamekit2D.ScreenFader+FadeType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>669cc1f85c2f463459fe05d2c53835cb</guid>
+    <fileName>Assets/2DGamekit/Scripts/SceneManagement/TransitionPoint.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8598716+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.TransitionPoint</string>
+      <string>Gamekit2D.TransitionPoint+TransitionType</string>
+      <string>Gamekit2D.TransitionPoint+TransitionWhen</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0df294e647f55da4787a8e4a8d5b829a</guid>
+    <fileName>Assets/2DGamekit/Scripts/Timeline/DirectorTrigger.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8608682+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.DirectorTrigger</string>
+      <string>Gamekit2D.DirectorTrigger+TriggerType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>01eea1eb1a94c594db065d0128542405</guid>
+    <fileName>Assets/2DGamekit/Scripts/UI/Dialogue.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.867845+02:00</timeStamp>
+    <typeFullName>
+      <string>TextFollow</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cee081f88aa0edb4a93546e690a41140</guid>
+    <fileName>Assets/2DGamekit/Scripts/UI/Dialoguev2.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8728284+02:00</timeStamp>
+    <typeFullName>
+      <string>FollowPlayer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>350c9c780c05c844dacc5fd1e27a7d12</guid>
+    <fileName>Assets/2DGamekit/Scripts/UI/HealthUI.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8748244+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.HealthUI</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>187a6b5f4268ad540b9feb561bcc5aa7</guid>
+    <fileName>Assets/2DGamekit/Scripts/UI/InputDisplayUI.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8748244+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.InputDisplayUI</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6df716d313805e04bb0e6428f6f04a29</guid>
+    <fileName>Assets/2DGamekit/Scripts/UI/KeyUI.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8758183+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.KeyUI</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d283e5cc46fd49043a530e4f42388fe5</guid>
+    <fileName>Assets/2DGamekit/Scripts/UI/MenuActivityController.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8758183+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.MenuActivityController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>91bb696b9154bc14a908ec598c688bd5</guid>
+    <fileName>Assets/2DGamekit/Scripts/UI/OptionUI.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8768153+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.OptionUI</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2f0e203868ec7644f970e60c523c4403</guid>
+    <fileName>Assets/2DGamekit/Scripts/UI/StartUI.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8768153+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.StartUI</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>40c025dd4ca4c674da3c36a848c977b4</guid>
+    <fileName>Assets/2DGamekit/Scripts/Utility/AutoCameraSetup.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8778115+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.AutoCameraSetup</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e278214686a68c643ba1e29516fe4fae</guid>
+    <fileName>Assets/2DGamekit/Scripts/Utility/DialogueCanvasController.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8778115+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.DialogueCanvasController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>759ba4f260faada4fa4b9b2b050372d6</guid>
+    <fileName>Assets/2DGamekit/Scripts/Utility/Helpers.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8778115+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.Vector2Extension</string>
+      <string>Gamekit2D.TransformExtension</string>
+      <string>Gamekit2D.PlatformerEffector2DExtension</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c4d9699bfa3f2d341a0e36423504e110</guid>
+    <fileName>Assets/2DGamekit/Scripts/Utility/LocalTransformDuplicator.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8788082+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.LocalTransformDuplicator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4a285a926a0cd654280fc5b842d63c0a</guid>
+    <fileName>Assets/2DGamekit/Scripts/Utility/OpenURL.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8788082+02:00</timeStamp>
+    <typeFullName>
+      <string>OpenURL</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>57047bd73cc4dd742863029857351221</guid>
+    <fileName>Assets/2DGamekit/Scripts/Utility/PhysicsHelper.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8788082+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.PhysicsHelper</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bcb947b73b32c47cda436985b22b3ea6</guid>
+    <fileName>Assets/2DGamekit/Scripts/Utility/PrewarmDirector.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8798052+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.PrewarmDirector</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>32de8513b0a3043f2b00e007e9d21462</guid>
+    <fileName>Assets/2DGamekit/Scripts/Utility/PriorityQueue.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8798052+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.PriorityQueue`1</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d746e0082aaaaf0458b2b02bb4d45a47</guid>
+    <fileName>Assets/2DGamekit/Scripts/Utility/RuleTile.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8808015+02:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.RuleTile</string>
+      <string>UnityEngine.RuleTile+TilingRule</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6a5e192a35bc4444facdaa83aa946e1a</guid>
+    <fileName>Assets/2DGamekit/Scripts/Utility/SetMaterialRenderQueue.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8808015+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.SetMaterialRenderQueue</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>013f02c332e60aa479ef5ef19d1ae5fa</guid>
+    <fileName>Assets/2DGamekit/Scripts/Utility/StartScreenSpriteOffsetter.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8808015+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.StartScreenSpriteOffsetter</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8b5f57b2355e252459a229916a11d4b3</guid>
+    <fileName>Assets/2DGamekit/Scripts/Utility/UIAutoscroll.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8817983+02:00</timeStamp>
+    <typeFullName>
+      <string>UIAutoscroll</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>493a4d4425a112840b87af1335c877ed</guid>
+    <fileName>Assets/2DGamekit/Scripts/Utility/VisibleBubbleUp.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8817983+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.VisibleBubbleUp</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fcf7219bab7fe46a1ad266029b2fee19</guid>
+    <fileName>Assets/2DGamekit/TutorialInfo/Scripts/Readme.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8879898+02:00</timeStamp>
+    <typeFullName>
+      <string>Readme</string>
+      <string>Readme+Section</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f5ccc80ec15386745b1f40a1c640a2d7</guid>
+    <fileName>Assets/2DGamekit/Utilities/Editor/BTDebug.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9119098+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.BTDebug</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>432d06b4f70925b4d9b7c73a855a8426</guid>
+    <fileName>Assets/2DGamekit/Utilities/Editor/NewSceneCreator.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9119098+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.NewSceneCreator</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e4de0dd9198a9544bbe7db7ec88f5c73</guid>
+    <fileName>Assets/Assets main menu/AlpacaStudio_Menu_Template/Scripts/Escape_Menu.cs</fileName>
+    <timeStamp>2017-12-25T00:16:56+01:00</timeStamp>
+    <typeFullName>
+      <string>Escape_Menu</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c8743df17e8a2d44cbcf9d605deee399</guid>
+    <fileName>Assets/Assets main menu/AlpacaStudio_Menu_Template/Scripts/Menu_Controller.cs</fileName>
+    <timeStamp>2017-12-25T00:16:56+01:00</timeStamp>
+    <typeFullName>
+      <string>Menu_Controller</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7b327cf93e7a2e047bcde3fd0b96fbeb</guid>
+    <fileName>Assets/Assets main menu/AlpacaStudio_Menu_Template/Scripts/Music_Player.cs</fileName>
+    <timeStamp>2017-12-25T00:16:51+01:00</timeStamp>
+    <typeFullName>
+      <string>Music_Player</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2b90e00cf84fc3b45a4fe76e3e2f5586</guid>
+    <fileName>Assets/Assets main menu/AlpacaStudio_Menu_Template/Scripts/Sound_Controller.cs</fileName>
+    <timeStamp>2017-12-25T00:16:48+01:00</timeStamp>
+    <typeFullName>
+      <string>Sound_Controller</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9ff967b7ed48f2441bcf509edf6b889a</guid>
+    <fileName>Assets/AurynSky/Gems Ultimate Pack/Scripts/AnimationScript.cs</fileName>
+    <timeStamp>2019-08-21T20:23:20+02:00</timeStamp>
+    <typeFullName>
+      <string>AnimationScript</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>04c2aa4f86ca6384e9a9c6d234cdef24</guid>
+    <fileName>Assets/TeKniKo_Free/Power_Ups/Scripts/ObjectBounce.cs</fileName>
+    <timeStamp>2022-04-08T18:39:32+02:00</timeStamp>
+    <typeFullName>
+      <string>ObjectBounce</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5da2b02b9b23a254eb4888bf21a5ceb8</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/Editor/CharacterStateSetterEditor.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8200076+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.CharacterStateSetterEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b7233221ef3c3cb469db7a5dfc92588f</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/Editor/DamageableEditor.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8200076+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.DamageableEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6669f4db41c523c48877f787179901e5</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/Editor/DamagerEditor.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8210016+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.DamagerEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d6e806bf29a2f08408889852665c9800</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/Editor/PlayerCharacterEditor.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8210016+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.PlayerCharacterEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>da4708db158e65d4d9710aeab16c03d4</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/Editor/PlayerInputEditor.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8210016+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.PlayerInputEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>20f916c2dfd5f3b47bc8cf6ae8d8452e</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/MonoBehaviours/Bullet.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8219984+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.Bullet</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f228fbb363353454ca367fa9d85a2d98</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/MonoBehaviours/BulletPool.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8219984+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.BulletPool</string>
+      <string>Gamekit2D.BulletObject</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f9630ef9434df4048aafe7bffcc5bc1a</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/MonoBehaviours/CharacterController2D.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8229949+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.CharacterController2D</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>960138f0450083543ad1d17e1352019d</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/MonoBehaviours/Damageable.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8229949+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.Damageable</string>
+      <string>Gamekit2D.Damageable+HealthEvent</string>
+      <string>Gamekit2D.Damageable+DamageEvent</string>
+      <string>Gamekit2D.Damageable+HealEvent</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c1506f7b67235554cb42519c257da979</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/MonoBehaviours/Damager.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8229949+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.Damager</string>
+      <string>Gamekit2D.Damager+DamagableEvent</string>
+      <string>Gamekit2D.Damager+NonDamagableEvent</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>83dfa83e29f454446b6abdda921f4bfd</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/MonoBehaviours/EnemyBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8240014+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.EnemyBehaviour</string>
+      <string>Gamekit2D.EnemyMeleeRangeCheckAttribute</string>
+      <string>Gamekit2D.EnemyMeleeRangePropertyDrawer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>82a74dc8d77716e41a9327ea8e370b0a</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/MonoBehaviours/InputComponent.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8240014+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.InputComponent</string>
+      <string>Gamekit2D.InputComponent+InputType</string>
+      <string>Gamekit2D.InputComponent+XboxControllerButtons</string>
+      <string>Gamekit2D.InputComponent+XboxControllerAxes</string>
+      <string>Gamekit2D.InputComponent+InputButton</string>
+      <string>Gamekit2D.InputComponent+InputAxis</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>49de84fa3d321d245bc900e599de015f</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/MonoBehaviours/PlayerCharacter.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8249882+02:00</timeStamp>
+    <typeFullName>
+      <string>PlayerCharacter2</string>
+      <string>Gamekit2D.PlayerCharacter</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>aeecda2baef25704c8fe802e627e9f27</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/MonoBehaviours/PlayerInput.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8249882+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.PlayerInput</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>13e3819811419e1459820222ccf3ffb4</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/MonoBehaviours/SpitterBT.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8249882+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.SpitterBT</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e2455439976da458e946bfb6bdd5ad7e</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/MonoBehaviours/VFXController.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8259849+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.VFX</string>
+      <string>Gamekit2D.VFX+VFXOverride</string>
+      <string>Gamekit2D.VFXInstance</string>
+      <string>Gamekit2D.VFXInstancePool</string>
+      <string>Gamekit2D.VFXController</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ebc41d91ea0baf642a731b878f810a98</guid>
+    <fileName>Assets/2DGamekit/Scripts/Localization/Editor/PhraseDrawer.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8439252+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.PhraseDrawer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9e108a4104cd70e419777d21c38f0229</guid>
+    <fileName>Assets/2DGamekit/Scripts/Localization/Editor/TranslatedPhrasesEditor.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8449218+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.TranslatedPhrasesEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b3ee289eb8955a14baf67095be72a4fe</guid>
+    <fileName>Assets/2DGamekit/Scripts/Localization/Editor/TranslatorEditor.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8449218+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.TranslatorEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>56f9e2625cee45047b6aeeabc432cef8</guid>
+    <fileName>Assets/2DGamekit/Scripts/Objects/Editor/MovingPlatformEditor.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8479117+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.MovingPlatformEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>830f269591bce8b4bb34b8623d4038c7</guid>
+    <fileName>Assets/2DGamekit/Scripts/Objects/Editor/MovingPlatformPreview.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8479117+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.MovingPlatformPreview</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a6c706ef0ef4e3d4a86a045031f02be6</guid>
+    <fileName>Assets/2DGamekit/Scripts/Objects/Editor/PressurePadEditor.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8489083+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.PressurePadEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6c8ed611044e5a1439cb9a0a1a0ab05b</guid>
+    <fileName>Assets/2DGamekit/Scripts/Objects/Platforms/FallthroughReseter.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8509018+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.FallthroughReseter</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c546c8b7ab72c7b4499299ec3ff45d17</guid>
+    <fileName>Assets/2DGamekit/Scripts/Objects/Platforms/MovingPlatform.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8509018+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.MovingPlatform</string>
+      <string>Gamekit2D.MovingPlatform+MovingPlatformType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9ff44b8ffcc6c954196bfdcf3eaff9df</guid>
+    <fileName>Assets/2DGamekit/Scripts/Objects/Platforms/PlatformCatcher.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8518983+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.PlatformCatcher</string>
+      <string>Gamekit2D.PlatformCatcher+CaughtObject</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a3869f08528931a49910b88ba82a0150</guid>
+    <fileName>Assets/2DGamekit/Scripts/Objects/Pushables/PressurePad.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8518983+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.PressurePad</string>
+      <string>Gamekit2D.PressurePad+ActivationType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f4109d6747d9b314fa8c11b4e2d087a4</guid>
+    <fileName>Assets/2DGamekit/Scripts/Objects/Pushables/Pushable.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8528949+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.Pushable</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a771c33d585b2304d98a8179839aa3b6</guid>
+    <fileName>Assets/2DGamekit/Scripts/SceneManagement/Editor/DataPersisterEditor.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8548882+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.DataPersisterEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>df21436873291974884a9b1866df6d3f</guid>
+    <fileName>Assets/2DGamekit/Scripts/SceneManagement/Editor/ParameterSetterDrawer.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8548882+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.ParameterSetterDrawer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c1ada0f81973c7b4f9c1514fc0e65ff2</guid>
+    <fileName>Assets/2DGamekit/Scripts/SceneManagement/Editor/SceneNameDrawer.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8548882+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.SceneNameDrawer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>74df15dd0984ed8409710188fb8ad3d2</guid>
+    <fileName>Assets/2DGamekit/Scripts/SceneManagement/Editor/TransitionStartEditor.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.855885+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.TransitionStartEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e0f3346820892d245abea25cdc341159</guid>
+    <fileName>Assets/2DGamekit/Scripts/Timeline/Editor/DirectorTriggerEditor.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.861865+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.DirectorTriggerEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e22dad6d2a28bf54382734d5e86a6412</guid>
+    <fileName>Assets/2DGamekit/Scripts/Timeline/ScrollingText/ScrollingTextBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8628617+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.ScrollingTextBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>13097c21bff2d5b4aac07a8596e77778</guid>
+    <fileName>Assets/2DGamekit/Scripts/Timeline/ScrollingText/ScrollingTextClip.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8638582+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.ScrollingTextClip</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5e7bf0a9f1f96f943b9e5adbccc629df</guid>
+    <fileName>Assets/2DGamekit/Scripts/Timeline/ScrollingText/ScrollingTextMixerBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8638582+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.ScrollingTextMixerBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2a4296d339e7fa94f950241169851228</guid>
+    <fileName>Assets/2DGamekit/Scripts/Timeline/ScrollingText/ScrollingTextTrack.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8638582+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.ScrollingTextTrack</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>476cc7d7cd9874016adc216baab94a0a</guid>
+    <fileName>Assets/2DGamekit/TutorialInfo/Scripts/Editor/ReadmeEditor.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8869933+02:00</timeStamp>
+    <typeFullName>
+      <string>ReadmeEditor</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>01cfeabdfa5f36740b2b9c9658bbb29e</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/Editor/TimelinePlayableWizard.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.89098+02:00</timeStamp>
+    <typeFullName>
+      <string>TimelinePlayableWizard</string>
+      <string>TimelinePlayableWizard+Variable</string>
+      <string>TimelinePlayableWizard+UsableType</string>
+      <string>TimelinePlayableWizard+UsableProperty</string>
+      <string>TimelinePlayableWizard+CreationError</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7e7c747bf1731824682c539494feba37</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/LightControl/LightControlBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8919763+02:00</timeStamp>
+    <typeFullName>
+      <string>LightControlBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>23b46759ef7b0fd4bb74d73bf4d2839b</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/LightControl/LightControlClip.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8929735+02:00</timeStamp>
+    <typeFullName>
+      <string>LightControlClip</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b6ddd7db188548f49bf8d55102e62b63</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/LightControl/LightControlMixerBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8929735+02:00</timeStamp>
+    <typeFullName>
+      <string>LightControlMixerBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e97b7684a1a63ed42afa5e89e962140f</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/LightControl/LightControlTrack.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8940496+02:00</timeStamp>
+    <typeFullName>
+      <string>LightControlTrack</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>05bbdc6a3b254694e8d1e2d9d55cd256</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/NavMeshAgentControl/NavMeshAgentControlBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8940496+02:00</timeStamp>
+    <typeFullName>
+      <string>NavMeshAgentControlBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cfedc374dca69334db907af09ba5c404</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/NavMeshAgentControl/NavMeshAgentControlClip.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8949667+02:00</timeStamp>
+    <typeFullName>
+      <string>NavMeshAgentControlClip</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a3805dde487857b41b2fff7d26f06f1e</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/NavMeshAgentControl/NavMeshAgentControlMixerBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8949667+02:00</timeStamp>
+    <typeFullName>
+      <string>NavMeshAgentControlMixerBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d201ca921ed322e418c25df03740a308</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/NavMeshAgentControl/NavMeshAgentControlTrack.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8949667+02:00</timeStamp>
+    <typeFullName>
+      <string>NavMeshAgentControlTrack</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4cf88cabc4dadeb4fafeefdbc61869ca</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/ScreenFader/ScreenFaderBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8969601+02:00</timeStamp>
+    <typeFullName>
+      <string>ScreenFaderBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0445258a5c40b364ab21547784905327</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/ScreenFader/ScreenFaderClip.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8969601+02:00</timeStamp>
+    <typeFullName>
+      <string>ScreenFaderClip</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>88173aff48b4ccb429d83dca32d03a86</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/ScreenFader/ScreenFaderMixerBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8979568+02:00</timeStamp>
+    <typeFullName>
+      <string>ScreenFaderMixerBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6a8190b9dc143d64ab3322e49af85f7b</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/ScreenFader/ScreenFaderTrack.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8979568+02:00</timeStamp>
+    <typeFullName>
+      <string>ScreenFaderTrack</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6480896635305a7418e42ec32d3c64d3</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/TextSwitcher/TextSwitcherBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8989534+02:00</timeStamp>
+    <typeFullName>
+      <string>TextSwitcherBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d4d683f551d33a84db12bb6fa65573f9</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/TextSwitcher/TextSwitcherClip.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8999501+02:00</timeStamp>
+    <typeFullName>
+      <string>TextSwitcherClip</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8a4266a3acde3c24e995780329819997</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/TextSwitcher/TextSwitcherMixerBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8999501+02:00</timeStamp>
+    <typeFullName>
+      <string>TextSwitcherMixerBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>73211584ea373f3409e0a7a83d711aef</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/TextSwitcher/TextSwitcherTrack.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9009465+02:00</timeStamp>
+    <typeFullName>
+      <string>TextSwitcherTrack</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a0b944926d9e8514d892737116110502</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/TimeDilation/TimeDilationBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9019434+02:00</timeStamp>
+    <typeFullName>
+      <string>TimeDilationBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>eed9a3f59ff436340b05ff8248f0d998</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/TimeDilation/TimeDilationClip.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9019434+02:00</timeStamp>
+    <typeFullName>
+      <string>TimeDilationClip</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>64af3ceaf545d3341b852718827f2b64</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/TimeDilation/TimeDilationMixerBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9029401+02:00</timeStamp>
+    <typeFullName>
+      <string>TimeDilationMixerBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0282fd402247fd34eb165b280236e58a</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/TimeDilation/TimeDilationTrack.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9029401+02:00</timeStamp>
+    <typeFullName>
+      <string>TimeDilationTrack</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0594bfd3cbfda4d4bab34de00fb2faed</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/TransformTween/TransformTweenBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9049332+02:00</timeStamp>
+    <typeFullName>
+      <string>TransformTweenBehaviour</string>
+      <string>TransformTweenBehaviour+TweenType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f28fb04ff66f85e40af453230799042c</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/TransformTween/TransformTweenClip.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9049332+02:00</timeStamp>
+    <typeFullName>
+      <string>TransformTweenClip</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e904ec43bfb67e843b3b830e3d2adc1d</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/TransformTween/TransformTweenMixerBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9049332+02:00</timeStamp>
+    <typeFullName>
+      <string>TransformTweenMixerBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f2e6ab84ba07902498da4807885565cb</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/TransformTween/TransformTweenTrack.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9059299+02:00</timeStamp>
+    <typeFullName>
+      <string>TransformTweenTrack</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f9cbe3d1fa4843444a5eb76370a4dd15</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/Video/VideoPlayableBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9059299+02:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.Timeline.VideoPlayableBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6dfd332197b07004c90e572e7b383e47</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/Video/VideoSchedulerPlayableBehaviour.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9069267+02:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.Timeline.VideoSchedulerPlayableBehaviour</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>88bb1acb4c6ce544788ae727c940bd7e</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/Video/VideoScriptPlayableAsset.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9069267+02:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.Timeline.VideoScriptPlayableAsset</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b5bef7c9d630a7042b864b59b09e597c</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/Video/VideoScriptPlayableTrack.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9079232+02:00</timeStamp>
+    <typeFullName>
+      <string>UnityEngine.Timeline.VideoScriptPlayableTrack</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dce60260750d2dd4d8e9702a87a19918</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Enemies/ChomperAttackSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8269818+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.ChomperAttackSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3f8003dd2c9860747935ea3f11db5708</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Enemies/ChomperDeathSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8269818+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.ChomperDeathSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>09aadc06dc102ff439414aa2f1205ac6</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Enemies/ChomperPatrolSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8279782+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.ChomperPatrolSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>40d8bb57cabbc0840a48303d773f6a64</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Enemies/ChomperRunToTargetSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8279782+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.ChomperRunToTargetSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dea47b23c7b39f34595780a74aa5e6f0</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/AirborneMeleeAttackSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8289749+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.AirborneMeleeAttackSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3c9e2a3a9e45dd0419bd2799583617f1</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/AirborneSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8289749+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.AirborneSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b99f99b73068b844a9fe80e5dfda380f</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/AirborneWithGunSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8289749+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.AirborneWithGunSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c748f4ea6548b2c4bbac77e314dcb718</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/CrouchSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8299716+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.CrouchSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9891df1c6019032478f09d199b2badf8</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/CrouchWithGunSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8299716+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.CrouchWithGunSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>adc79483c0a4f324db07842e56543c1a</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/DeadLandingSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8309685+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.DeadLandingSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0b385d76d17e3ad40af19b1ee9fde4a2</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/DeadSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8309685+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.DeadSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>788fe546ad9bdbb45a6cc099f9f20e00</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/HurtSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8309685+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.HurtSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ffbd228a4d4e2ea48bb363a8a0b5e80d</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/LocomotionSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8319652+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.LocomotionSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>10e9ea67fbfeea244981d827aa6e40af</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/LocomotionWithGunSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8319652+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.LocomotionWithGunSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>779e426f26210b146849be9b8e585133</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/MeleeAttackSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8329618+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.MeleeAttackSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fab378b45c5c3df468bef1e509b10796</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/PushingSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8329618+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.PushingSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ffa803ba5afda31449bb92e48a33bcb6</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/RespawnSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8329618+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.RespawnSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c5e5b65c6ec02a9498fe23658dadb437</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/SceneLinkedSMB.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8339711+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.SceneLinkedSMB`1</string>
+      <string>Gamekit2D.SealedSMB</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c7bf68b2a1e6e4813b1d346963cdd0ff</guid>
+    <fileName>Assets/2DGamekit/Scripts/Character/StateMachineBehaviours/Player/TriggerVFX.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8339711+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.TriggerVFX</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>59bb5b2c27d2a7c45a51aad334ab3e32</guid>
+    <fileName>Assets/2DGamekit/Scripts/Timeline/ScrollingText/Editor/ScrollingTextDrawer.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8628617+02:00</timeStamp>
+    <typeFullName>
+      <string>Gamekit2D.ScrollingTextDrawer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a217f65052ddf094ba45e737b2428b1c</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/LightControl/Editor/LightControlDrawer.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8919763+02:00</timeStamp>
+    <typeFullName>
+      <string>LightControlDrawer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7075b31fb4bae504f8480419ce90246f</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/ScreenFader/Editor/ScreenFaderDrawer.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8969601+02:00</timeStamp>
+    <typeFullName>
+      <string>ScreenFaderDrawer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d10fec9d6fdea024293153308aa74ef7</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/TextSwitcher/Editor/TextSwitcherDrawer.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.8989534+02:00</timeStamp>
+    <typeFullName>
+      <string>TextSwitcherDrawer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>96853521ef6ea974d96cf7ef72f7c6a7</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/TimeDilation/Editor/TimeDilationDrawer.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9019434+02:00</timeStamp>
+    <typeFullName>
+      <string>TimeDilationDrawer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d4c9e800b8d9b3344850b4b658de699d</guid>
+    <fileName>Assets/2DGamekit/Utilities/DefaultPlayables/TransformTween/Editor/TransformTweenDrawer.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9039366+02:00</timeStamp>
+    <typeFullName>
+      <string>TransformTweenDrawer</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7fc6bde01469c7b4badee5362f191d96</guid>
+    <fileName>Assets/2DGamekit/Utilities/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9842918+02:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.BlurOptimized</string>
+      <string>UnityStandardAssets.ImageEffects.BlurOptimized+BlurType</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b6f4318ec6c2bf643a0f9edfeeaba0ec</guid>
+    <fileName>Assets/2DGamekit/Utilities/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs</fileName>
+    <timeStamp>2024-08-16T23:28:09.9842918+02:00</timeStamp>
+    <typeFullName>
+      <string>UnityStandardAssets.ImageEffects.PostEffectsBase</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+</ArrayOfTypeDate>
