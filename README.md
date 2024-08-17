@@ -22,11 +22,11 @@ Star Seeker est un jeu de plateforme exploratif et cozy. Le but est de collecter
 
 
 **Copyrights, informations de licence, références**
-- Musique d'ambiance : 
+- Musiques : 
 	- "Guiding Light", Helios by Alex Diggelmann, https://oliver-leins.itch.io/helios-ost
-	- "Refuge of the Fallen", Rocklynn Productions, https://assetstore.unity.com/packages/audio/music/orchestral/end-credits-refuge-of-the-fallen-music-pack-13820#publisher
+	- "Refuge of the Fallen", Rocklynn Productions, https://assetstore.unity.com/packages/audio/music/orchestral/end-credits-refuge-of-the-fallen-music-pack-13820#publisher, https://unity.com/fr/legal/as-terms
 - Sound effect des étoiles : "UI-Accept or forward" de ViRiX (David McKee), https://opengameart.org/content/ui-accept-or-forward, https://creativecommons.org/licenses/by/3.0/
-- autre sounds effects : 2D Game Kit from Unity, https://assetstore.unity.com/packages/templates/tutorials/2d-game-kit-107098, https://unity.com/fr/legal/as-terms
+- Autres sounds effects : 2D Game Kit from Unity, https://assetstore.unity.com/packages/templates/tutorials/2d-game-kit-107098, https://unity.com/fr/legal/as-terms
 - Background :
   - "Simple Nature Pixel Background for Video Game" and "Pixelated sunset behind the clouds game background" by CraftPix.net 2D Game Assets (Compilation des images et retexturatisation), https://opengameart.org/content/simple-nature-pixel-background-for-video-game, https://opengameart.org/content/pixelated-sunset-behind-the-clouds-game-background, https://static.opengameart.org/OGA-BY-3.0.txt
   - "18 Gradient Skies (640x480)" by rh0 (modifié et intégré dans le fond du ciel étoilé), https://opengameart.org/content/18-gradient-skies-640x480, https://creativecommons.org/publicdomain/zero/1.0/
