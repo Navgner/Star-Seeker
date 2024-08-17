@@ -8,7 +8,6 @@ public class FadeController : MonoBehaviour
     public Image fadeImage;
     public float fadeDuration = 2f;
     public string sceneToLoad;
-    public AudioClip musicClip;
 
     private void Start()
     {
@@ -18,6 +17,7 @@ public class FadeController : MonoBehaviour
         }
         fadeImage.color = new Color(0, 0, 0, 1);
         StartCoroutine(FadeFromBlack());
+        Debug.Log("FadeFromBlack started.");
     }
 
     private void Update()
@@ -28,24 +28,32 @@ public class FadeController : MonoBehaviour
         }
     }
 
-    public void StartFadeOut(string sceneName = null, AudioClip newMusic = null)
+    public void StartFadeOut(string sceneName = null)
     {
         sceneToLoad = sceneName;
-        musicClip = newMusic;
+        Debug.Log("StartFadeOut called. Scene to load: " + sceneToLoad);
         StartCoroutine(FadeToBlack());
     }
 
     private void HandleSpaceKeyPress()
     {
-        if (SceneManager.GetActiveScene().name == "EndGameScene")
+        string currentScene = SceneManager.GetActiveScene().name;
+        Debug.Log("Space key pressed. Current scene: " + currentScene);
+
+        if (currentScene == "EndGameScene")
         {
-            StartFadeOut("SceneCredits", null);
+            StartFadeOut("Scientific information");
         }
-        else if (SceneManager.GetActiveScene().name == "SceneCredits")
+        else if (currentScene == "Scientific information")
+        {
+            StartFadeOut("SceneCredits");
+        }
+        else if (currentScene == "SceneCredits")
         {
             StartFadeOut("MainMenu");
         }
     }
+
 
     private IEnumerator FadeToBlack()
     {
@@ -60,22 +68,11 @@ public class FadeController : MonoBehaviour
             yield return null;
         }
 
+        Debug.Log("FadeToBlack completed. Scene to load: " + sceneToLoad);
+
         if (!string.IsNullOrEmpty(sceneToLoad))
         {
             SceneManager.LoadScene(sceneToLoad);
-
-            if (sceneToLoad != "Testing 1" && musicClip != null)
-            {
-                AudioSource[] audioSources = FindObjectsOfType<AudioSource>();
-                foreach (var source in audioSources)
-                {
-                    if (source.gameObject.scene.name == sceneToLoad)
-                    {
-                        source.clip = musicClip;
-                        source.Play();
-                    }
-                }
-            }
         }
     }
 
@@ -92,5 +89,6 @@ public class FadeController : MonoBehaviour
             yield return null;
         }
         fadeImage.color = new Color(0, 0, 0, 0);
+        Debug.Log("FadeFromBlack completed.");
     }
 }

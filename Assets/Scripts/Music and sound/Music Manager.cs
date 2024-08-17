@@ -17,6 +17,7 @@ public class PersistentMusicManager : MonoBehaviour
             audioSource.clip = musicClip;
             audioSource.loop = true;
             audioSource.Play();
+            Debug.Log("Music started: " + musicClip.name);
         }
         else
         {
@@ -26,9 +27,9 @@ public class PersistentMusicManager : MonoBehaviour
 
     private void Update()
     {
-        // Vérifie si la scène active est le MainMenu, et arrête la musique si c'est le cas
         if (SceneManager.GetActiveScene().name == "MainMenu")
         {
+            Debug.Log("MainMenu scene loaded. Destroying PersistentMusicManager.");
             Destroy(gameObject);
         }
     }

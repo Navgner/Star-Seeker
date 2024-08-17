@@ -11,7 +11,7 @@ public class PlayerInventory : MonoBehaviour
     void Start()
     {
         UpdateUI();
-        dialogueManager.ShowDialogue("Je sens les ombres partout... mais les étoiles brillent toujours, elle m'appellent...");
+        dialogueManager.ShowDialogue("Je sens les ombres partout... mais les étoiles brillent toujours, elles m'appellent...");
     }
 
     public void AddCollectible()
@@ -51,7 +51,8 @@ public class PlayerInventory : MonoBehaviour
         if (fadeController != null)
         {
             fadeController.gameObject.SetActive(true);
-            fadeController.StartFadeOut("EndGameScene", null);  // No music change needed here
+            Debug.Log("Ending game. Loading EndGameScene.");
+            fadeController.StartFadeOut("EndGameScene");
         }
         else
         {
