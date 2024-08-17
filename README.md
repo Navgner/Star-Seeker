@@ -11,7 +11,11 @@ Star Seeker est un jeu de plateforme exploratif et cozy. Le but est de collecter
 
 
 **Procédure d'installation et de lancement**
-- (Partie de Rengvan)
+Il existe deux façons de jouer à ce jeu :
+
+    - Jouer directement en ligne : Vous pouvez jouer au jeu directement sur le web en suivant ce lien: https://navgner.itch.io/star-seeker
+
+    - Télécharger et jouer hors ligne : Téléchargez le fichier au format 7zip. qui se trouve dans le lien itch.io qui a été mis juste au dessus. Décompressez ce fichier avec le logiciel gratuit 7zip (recommandé) ou WinRAR. Ensuite, dans le dossier décompressé, double-cliquez sur le fichier "my project.exe" pour lancer le jeu.
 
 
 **Modules, libraires, scripts utilisés**
