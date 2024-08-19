@@ -40,7 +40,7 @@ Il existe deux façons de jouer à ce jeu :
     https://fr.wikipedia.org/wiki/Dragon_(constellation)*
 
 Outils Utilisés:
-- ChatGPT - Pour créer et résoudre du codage. Majoritairement utilisé.
+- ChatGPT - Pour créer et résoudre du codage. Tout les codes ont été générés par ChatGPT.
   - Fourni par: OpenAI
   - URL: [ChatGPT](https://www.openai.com/chatgpt)
 - Logiciel utilisé pour le game art : Krita
