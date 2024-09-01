@@ -360,6 +360,7 @@ MonoBehaviour:
   - Scientific information
   - SceneCredits
   - MainMenu
+  excludedScenes: []
 --- !u!4 &437369599
 Transform:
   m_ObjectHideFlags: 0
@@ -1133,14 +1134,14 @@ RectTransform:
   m_GameObject: {fileID: 1848637301}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.018710852, y: 0.018710852, z: 0.018710852}
+  m_LocalScale: {x: 0.01639557, y: 0.01639557, z: 0.01639557}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1303872663}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -1435.6179, y: -4.2860107}
+  m_AnchoredPosition: {x: -1435.5406, y: -3.7160034}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1848637303
