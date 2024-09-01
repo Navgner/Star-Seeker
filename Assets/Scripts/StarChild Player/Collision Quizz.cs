@@ -4,13 +4,14 @@ public class PlayerCollision2D : MonoBehaviour
 {
     public QuizManager quizManager; // Référence au QuizManager
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Collision détectée avec : " + other.gameObject.name);
 
+        // Itérer sur les sphères du quizManager
         for (int i = 0; i < quizManager.spheres.Length; i++)
         {
-            // Compare avec les sphères en utilisant des Collider2D
+            // Comparer le collider avec les sphères
             if (other.gameObject == quizManager.spheres[i])
             {
                 Debug.Log("Sphère touchée avec l'index : " + i);

@@ -10,6 +10,12 @@ public class QuizManager : MonoBehaviour
     public TextMeshProUGUI[] answerTexts;
     public GameObject[] spheres;
 
+    public Rigidbody2D playerRigidbody; // Référence au Rigidbody2D du joueur
+    public float repelForce = 10f; // Force de repoussement
+    public float blockDuration = 0.5f; // Durée de blocage après repoussement
+
+    private bool isBlocked = false; // Indique si le joueur est temporairement bloqué
+
     private float fadeDuration = 0.5f; // Durée du fade
 
     private void Start()
@@ -22,28 +28,73 @@ public class QuizManager : MonoBehaviour
         // Fade out existing text and spheres
         yield return FadeOutAll();
 
-        // Display new question
-        DisplayQuestion();
-
-        // Fade in new text and spheres
-        yield return FadeInAll();
+        // Display new question or end quiz
+        if (currentQuestionIndex < questions.Length)
+        {
+            DisplayQuestion();
+            yield return FadeInAll();
+        }
+        else
+        {
+            StartCoroutine(HandleQuizEnd());
+        }
     }
 
     private void DisplayQuestion()
     {
-        if (currentQuestionIndex < questions.Length)
+        Debug.Log("Affichage de la question : " + questions[currentQuestionIndex].questionText);
+        for (int i = 0; i < answerTexts.Length; i++)
         {
-            Debug.Log("Affichage de la question : " + questions[currentQuestionIndex].questionText);
-            for (int i = 0; i < answerTexts.Length; i++)
-            {
-                answerTexts[i].text = questions[currentQuestionIndex].answers[i];
-                Debug.Log("Réponse " + i + ": " + questions[currentQuestionIndex].answers[i]);
-            }
+            answerTexts[i].text = questions[currentQuestionIndex].answers[i];
+            Debug.Log("Réponse " + i + ": " + questions[currentQuestionIndex].answers[i]);
+        }
+    }
+
+    public void OnPlayerAnswer(int sphereIndex)
+    {
+        if (isBlocked) return; // Empêche l'action si le joueur est bloqué
+
+        Debug.Log("Sphère touchée avec l'index : " + sphereIndex);
+        if (sphereIndex == questions[currentQuestionIndex].correctAnswerIndex)
+        {
+            Debug.Log("Bonne réponse!");
+            currentQuestionIndex++;
+            StartCoroutine(DisplayQuestionWithFade());
         }
         else
         {
-            Debug.Log("Quiz Terminé!");
+            Debug.Log("Mauvaise réponse.");
+            StartCoroutine(BlockAndRepelPlayer(spheres[sphereIndex].transform));
         }
+    }
+
+    private IEnumerator BlockAndRepelPlayer(Transform sphereTransform)
+    {
+        isBlocked = true;
+
+        // Calculer la direction opposée à la sphère
+        Vector2 repelDirection = (playerRigidbody.transform.position - sphereTransform.position).normalized;
+
+        // Appliquer la force de repoussement
+        playerRigidbody.AddForce(repelDirection * repelForce, ForceMode2D.Impulse);
+
+        // Désactiver le mouvement du joueur pendant la durée du blocage
+        var playerMovement = playerRigidbody.GetComponent<PlayerController>();
+        if (playerMovement != null)
+        {
+            playerMovement.enabled = false;
+        }
+
+        // Attendre la fin de la période de blocage
+        yield return new WaitForSeconds(blockDuration);
+
+        // Réactiver le mouvement du joueur
+        if (playerMovement != null)
+        {
+            playerMovement.enabled = true;
+        }
+
+        isBlocked = false;
     }
 
     private IEnumerator FadeOutAll()
@@ -148,26 +199,18 @@ public class QuizManager : MonoBehaviour
         }
     }
 
-    public void OnPlayerAnswer(int sphereIndex)
+    private IEnumerator HandleQuizEnd()
     {
-        Debug.Log("Sphère touchée avec l'index : " + sphereIndex);
-        if (sphereIndex == questions[currentQuestionIndex].correctAnswerIndex)
-        {
-            Debug.Log("Bonne réponse!");
-        }
-        else
-        {
-            Debug.Log("Mauvaise réponse.");
-        }
+        // Fade out the last question and spheres
+        yield return FadeOutAll();
 
-        currentQuestionIndex++;
-        if (currentQuestionIndex < questions.Length)
-        {
-            StartCoroutine(DisplayQuestionWithFade());
-        }
-        else
-        {
-            Debug.Log("Quiz Terminé!");
-        }
+        // Transition to the next scene
+        SceneTransitionManager.Instance?.LoadNextScene();
+
+        // Optionnel: Afficher un écran de fin ou un message final
+        Debug.Log("Quiz Terminé! Affichage de l'écran final.");
+
+        // Optionnel: Fade in end screen or final message
+        // Vous pouvez ajouter ici un écran final avec une animation de fade-in.
     }
 }

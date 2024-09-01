@@ -290,7 +290,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeImage: {fileID: 403973557}
   fadeDuration: 2
-  sceneToLoad: Scientific information
 --- !u!114 &187626764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,6 +385,7 @@ GameObject:
   - component: {fileID: 403973559}
   - component: {fileID: 403973558}
   - component: {fileID: 403973557}
+  - component: {fileID: 403973560}
   m_Layer: 5
   m_Name: FadeImage
   m_TagString: Untagged
@@ -450,6 +450,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &403973560
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403973556}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &925246489
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,6 +826,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1279150738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1279150740}
+  - component: {fileID: 1279150739}
+  m_Layer: 0
+  m_Name: Scene manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1279150739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279150738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 288d60f6e6c3c0c4188b1bf8d9798046, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenes:
+  - MainMenu
+  - Testing 1
+  - Quizz1
+  - EndGameScene
+  - Scientific information
+  - SceneCredits
+  - MainMenu
+--- !u!4 &1279150740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279150738}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0693444, y: 2.7166688, z: -0.026425011}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2029036739
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,3 +989,4 @@ SceneRoots:
   - {fileID: 998951321}
   - {fileID: 2029036743}
   - {fileID: 187626767}
+  - {fileID: 1279150740}

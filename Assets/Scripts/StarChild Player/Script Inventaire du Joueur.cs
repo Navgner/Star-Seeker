@@ -5,10 +5,9 @@ public class PlayerInventory : MonoBehaviour
     public int totalCollectibles = 17;
     private int collectedCount = 0;
     public UIManager uiManager;
-    public FadeController fadeController;
     public DialogueManager dialogueManager;
 
-    void Start()
+    private void Start()
     {
         UpdateUI();
         dialogueManager.ShowDialogue("Je sens les ombres partout... mais les étoiles brillent toujours, elles m'appellent...");
@@ -48,15 +47,15 @@ public class PlayerInventory : MonoBehaviour
 
     private void EndGame()
     {
-        if (fadeController != null)
+        // Assurez-vous que SceneTransitionManager est bien configuré
+        if (SceneTransitionManager.Instance != null)
         {
-            fadeController.gameObject.SetActive(true);
             Debug.Log("Ending game. Loading EndGameScene.");
-            fadeController.StartFadeOut("EndGameScene");
+            SceneTransitionManager.Instance.LoadNextScene(); // Utilisez la méthode LoadNextScene
         }
         else
         {
-            Debug.LogError("fadeController is not assigned.");
+            Debug.LogError("SceneTransitionManager is not assigned.");
         }
     }
 }
