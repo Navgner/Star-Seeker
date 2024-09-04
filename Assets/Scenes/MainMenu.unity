@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scenes:
   - MainMenu
+  - Introduction
   - Testing 1
   - Quizz1
   - EndGameScene

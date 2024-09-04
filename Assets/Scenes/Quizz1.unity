@@ -1988,7 +1988,7 @@ MonoBehaviour:
   - questionText: Question 0
     answers:
     - C'est le chaos dehors! Le temps de jouer, c'est un luxe qu'on n'a pas!
-    - "Je peux pas, je suis trop fatigu\xE9...."
+    - "Je ne peux pas, je suis trop fatigu\xE9..."
     - "Je vais vous enfiler une autre lumi\xE8re si vous continuez comme \xE7a!"
     - Bon d'accord...
     - "Tu dois encore venir nous chercher! Joue avec nous!!! R\xE9pond \xE0 des questions
@@ -2000,8 +2000,8 @@ MonoBehaviour:
     - Hercule
     - Petite Ours
     - Chauve-souris
-    - "Un temps, Draco avait une aile, une tr\xE8s petite.  VRAIMENT PETITE. pourquoi
-      j'insiste sur petit? J'insiste pas du tout. Par qui \xE9tait-elle form\xE9e
+    - "Un temps, Draco avait une aile, une tr\xE8s petite. VRAIMENT PETITE. Pourquoi
+      j'insiste sur petite ? J'insiste pas du tout. Par qui \xE9tait-elle form\xE9e
       ?"
     correctAnswerIndex: 2
   - questionText: Question 2
@@ -2010,7 +2010,7 @@ MonoBehaviour:
     - Une chenille
     - "Un l\xE9zard"
     - Une souris
-    - "Draco : Quelle animal je repr\xE9sente autre que celle du dragon ?"
+    - "Draco : Quel animal je repr\xE9sente autre que celui du dragon ?"
     correctAnswerIndex: 0
   - questionText: Question 8
     answers:
@@ -2035,7 +2035,7 @@ MonoBehaviour:
     - "H\xE9ra"
     - Achille
     - Hercule
-    - "Comment se nomme le c\xE9l\xE8bre H\xE9ros grecque qui terrassa Draco\_?"
+    - "Comment se nomme le c\xE9l\xE8bre h\xE9ros grec qui terrassa Draco ?"
     correctAnswerIndex: 3
   - questionText: Question 5
     answers:
@@ -2051,19 +2051,19 @@ MonoBehaviour:
     - "Cygne : C\u2019est l\u2019\xE9l\xE9gance qui fait le charme !"
     - "Grande Ourse : Bah non c\u2019est la force qui a convaincu !"
     - "N\u2019importe quoi, personne ne serait tomb\xE9 dans le panneau !"
-    - "Sous quelle forme Zeus a-t-il pris une forme pour s\xE9duire L\xE9da et engendr\xE9
-      les G\xE9meaux ?"
+    - "Sous quelle forme Zeus a-t-il pris pour s\xE9duire L\xE9da et engendrer les
+      G\xE9meaux ?"
     correctAnswerIndex: 1
   - questionText: Question 7
     answers:
-    - "Alpha Ursae Minoris : Qui d\u2019autre que moi ? la C\xE9l\xE8bre \xE9toile
-      Polaire !"
-    - "Sirius Alpha : On ne surnomme pas l\u2019Ardente pour rien\_! ou la Br\xFBlante
+    - "Alpha Ursae Minoris : Qui d\u2019autre que moi ? La c\xE9l\xE8bre \xE9toile
+      polaire !"
+    - "Sirius Alpha : On ne surnomme pas l\u2019Ardente pour rien ! Ou la Br\xFBlante
       !"
-    - "Calvera : C\u2019est carr\xE9ment moi ! On m\u2019a m\xEAme donn\xE9e le nom
+    - "Calvera : C\u2019est carr\xE9ment moi ! On m\u2019a m\xEAme donn\xE9 le nom
       du m\xE9chant dans Les Sept Mercenaires !"
     - "Eltanin : Hey ho ! J\u2019incarne la force d\u2019un dragon !"
-    - "Quelle \xE9toile est la plus brillante ? "
+    - "Quelle \xE9toile est la plus brillante de la vo\xFBte c\xE9leste ?"
     correctAnswerIndex: 1
   - questionText: Question 9
     answers:
@@ -2071,8 +2071,8 @@ MonoBehaviour:
     - "Le p\xE8re Noel "
     - La pomme rouge de Blanche Neige
     - "Roi d\u2019\xC9thiopie, h\xE9ritier du ph\xE9nix "
-    - "C\xE9ph\xE9e : Je poss\xE8de une belle \xE9toile grenat, d\u2019un rouge \xE9blouissant
-      et \xE9toile polaire de Mars, d\u2019o\xF9 vient mon nom ?"
+    - "C\xE9ph\xE9e : Je poss\xE8de une belle \xE9toile grenat, d\u2019un rouge \xE9blouissant,
+      et \xE9toile polaire de Mars. D\u2019o\xF9 vient mon nom ?"
     correctAnswerIndex: 3
   - questionText: Question 9
     answers:
