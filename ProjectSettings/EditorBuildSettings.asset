@@ -51,9 +51,21 @@ EditorBuildSettings:
     path: Assets/Scenes/EndGameScene.unity
     guid: 6b1d9c200c414d241a4e9fedbae3017d
   - enabled: 1
-    path: Assets/Scenes/Scientific information.unity
-    guid: a7c2feca8b8409e489e54cf033bce73a
+    path: Assets/Scenes/SceneCredits 1.unity
+    guid: b1427b2218d9a61409ed87551036de4f
   - enabled: 1
-    path: Assets/Scenes/SceneCredits.unity
-    guid: 8e922f134146a8e428619f5021c231af
+    path: Assets/Scenes/SceneCredits 2.unity
+    guid: 5ab484a5abdd2be4485cf99791d793e9
+  - enabled: 1
+    path: Assets/Scenes/SceneCredits 3.unity
+    guid: 40472065108c4b844a1ba010e1f59096
+  - enabled: 1
+    path: Assets/Scenes/SceneCredits 4.unity
+    guid: f96c501b17d347541819a3e0aba7984a
+  - enabled: 1
+    path: Assets/Scenes/SceneCredits 5.unity
+    guid: 8a0eee2910268764f967ffbb8a809ea9
+  - enabled: 1
+    path: Assets/Scenes/SceneCredits 6.unity
+    guid: a7c2feca8b8409e489e54cf033bce73a
   m_configObjects: {}

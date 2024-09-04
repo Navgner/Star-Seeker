@@ -525,6 +525,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1625062850}
   - {fileID: 2099386044}
   - {fileID: 1012115882}
   - {fileID: 446022177}
@@ -1251,6 +1252,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: 
+  dialogueManager: {fileID: 0}
 --- !u!95 &446022175
 Animator:
   serializedVersion: 5
@@ -2701,6 +2704,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: "Oh c\u2019est Albireo, le bec du Cygne. Zeus avait pris cette forme
+    pour s\xE9duire une certaine L\xE9da. Quelle dr\xF4le d\u2019id\xE9e\_!\_Le pire
+    c\u2019est que \xE7a a march\xE9\_! Est-ce que \xE7a veut dire que je dois faire
+    la m\xEAme chose?..."
+  dialogueManager: {fileID: 1436753917}
 --- !u!95 &825290021
 Animator:
   serializedVersion: 5
@@ -3229,6 +3237,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: 
+  dialogueManager: {fileID: 0}
 --- !u!95 &877053883
 Animator:
   serializedVersion: 5
@@ -3553,6 +3563,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: "Quoi\_?!? Tu ne me reconnais pas\_? Moi Alpha Draconis !?! Mmmph\_!
+    Pourtant c\u2019\xE9tait MOI l\u2019\xE9toile polaire avant que cet alpha Ursae
+    Minoris ne me prenne la place\_!\_Tout \xE7a pour une histoire de soi-disant
+    ph\xE9nom\xE8ne des \xE9quinoxes\_!"
+  dialogueManager: {fileID: 1436753917}
 --- !u!95 &962326463
 Animator:
   serializedVersion: 5
@@ -3635,7 +3650,7 @@ Transform:
   m_GameObject: {fileID: 962326460}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.9, y: -4.76, z: -10.4432}
+  m_LocalPosition: {x: 27.93, y: -4.45, z: -10.4432}
   m_LocalScale: {x: 0.052457962, y: 0.052457962, z: 0.052457962}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3793,9 +3808,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.14200032, y: -0.19870932}
   serializedVersion: 2
-  m_Radius: 12.400001
+  m_Radius: 7.6302047
 --- !u!114 &1008364369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3809,6 +3824,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: "Whoaaa mais elle est \xE9norme\_!! \xC7a doit \xEAtre Sirius Alpha,
+    elle se consid\xE8re comme la plus belle et la plus brillante de toutes\_! Sa
+    phrase pr\xE9f\xE9r\xE9e est \xAB On ne surnomme pas l\u2019Ardente pour rien\_!\_\xBB"
+  dialogueManager: {fileID: 1436753917}
 --- !u!95 &1008364370
 Animator:
   serializedVersion: 5
@@ -3891,8 +3910,8 @@ Transform:
   m_GameObject: {fileID: 1008364367}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -42.096313, y: -14.440277, z: -10.4432}
-  m_LocalScale: {x: 0.052457962, y: 0.052457962, z: 0.052457962}
+  m_LocalPosition: {x: -42.096313, y: -12.23, z: -10.4432}
+  m_LocalScale: {x: 0.43332312, y: 0.43332312, z: 0.43332312}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 166034659}
@@ -3965,6 +3984,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: 
+  dialogueManager: {fileID: 1436753917}
 --- !u!95 &1012115880
 Animator:
   serializedVersion: 5
@@ -4048,7 +4069,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -92.98633, y: -5.5802917, z: -10.4432}
-  m_LocalScale: {x: 0.052457962, y: 0.052457962, z: 0.052457962}
+  m_LocalScale: {x: 0.101144195, y: 0.101144195, z: 0.101144195}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 166034659}
@@ -4249,6 +4270,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: "Oh c\u2019est Eltanin, la plus lumineuse de Draco sans aucun doute
+    ! Ladon peut se r\xE9veiller et faire dissiper ces t\xE9n\xE8bres d\xE8s que
+    j'ai r\xE9colt\xE9 le reste des \xE9toiles"
+  dialogueManager: {fileID: 1436753917}
 --- !u!95 &1055064182
 Animator:
   serializedVersion: 5
@@ -4489,6 +4514,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: 
+  dialogueManager: {fileID: 0}
 --- !u!95 &1128534590
 Animator:
   serializedVersion: 5
@@ -5664,6 +5691,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: 
+  dialogueManager: {fileID: 0}
 --- !u!95 &1475396282
 Animator:
   serializedVersion: 5
@@ -5820,6 +5849,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: "Rouge comme un ph\xE9nix!"
+  dialogueManager: {fileID: 1436753917}
 --- !u!95 &1531004547
 Animator:
   serializedVersion: 5
@@ -5830,7 +5861,7 @@ Animator:
   m_GameObject: {fileID: 1531004544}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 44845155a6ec427498507e9283b89c54, type: 2}
+  m_Controller: {fileID: 9100000, guid: 50c138ffd38a14e4686a41585d7c6133, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5882,7 +5913,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 15845bff71194fa4b8860e3455e8b90b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8d115e58f6699a14789ddd16f50769f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6312,6 +6343,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: 
+  dialogueManager: {fileID: 0}
 --- !u!95 &1607862226
 Animator:
   serializedVersion: 5
@@ -6394,12 +6427,171 @@ Transform:
   m_GameObject: {fileID: 1607862223}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.4, y: -4.32, z: -10.4432}
+  m_LocalPosition: {x: 30.41, y: -4.65, z: -10.4432}
   m_LocalScale: {x: 0.052457962, y: 0.052457962, z: 0.052457962}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 166034659}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1625062849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1625062850}
+  - component: {fileID: 1625062854}
+  - component: {fileID: 1625062853}
+  - component: {fileID: 1625062852}
+  - component: {fileID: 1625062851}
+  m_Layer: 0
+  m_Name: "Dialogue d\xE9but"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1625062850
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625062849}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -72.04, y: -14.47, z: -10.4432}
+  m_LocalScale: {x: 0.052457962, y: 0.052457962, z: 0.052457962}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 166034659}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1625062851
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625062849}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 12.400001
+--- !u!114 &1625062852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625062849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3510014b382084cb3726ea60a5a648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: "Pourquoi ces \xE9toiles doivent tout le temps se perdre... Le monde
+    est devenu si sombre sans les \xE9toiles qui illuminent."
+  dialogueManager: {fileID: 1436753917}
+--- !u!95 &1625062853
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625062849}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 44845155a6ec427498507e9283b89c54, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!212 &1625062854
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625062849}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 15845bff71194fa4b8860e3455e8b90b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 24.800001, y: 24.800001}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1632932217
 GameObject:
   m_ObjectHideFlags: 0
@@ -123460,7 +123652,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   totalCollectibles: 17
   uiManager: {fileID: 844800696}
-  dialogueManager: {fileID: 1436753917}
 --- !u!114 &1664387343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123563,6 +123754,52 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1363848440}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1670214905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1670214907}
+  - component: {fileID: 1670214906}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1670214906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670214905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8e9c5b60e326049826892cb42aa11e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 1436753918}
+  typingSpeed: 0.05
+--- !u!4 &1670214907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670214905}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 656.90533, y: 409.93436, z: 0.12112535}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1678419814
 GameObject:
@@ -123884,6 +124121,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: 
+  dialogueManager: {fileID: 0}
 --- !u!95 &1840179514
 Animator:
   serializedVersion: 5
@@ -124040,6 +124279,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: "Oh, je reconnais cette \xE9toile, elle appartient \xE0 Ladon ! Ou
+    il pr\xE9f\xE9rait qu\u2019on l\u2019appelle Draco\_? Ou le dragon c\xE9leste
+    de H\xE9ra, ancien gardien des jardins des Hesp\xE9rides ! C\u2019est long comme
+    titre..."
+  dialogueManager: {fileID: 1436753917}
 --- !u!95 &1875326060
 Animator:
   serializedVersion: 5
@@ -124280,6 +124524,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: 
+  dialogueManager: {fileID: 0}
 --- !u!95 &1917032833
 Animator:
   serializedVersion: 5
@@ -124635,6 +124881,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: hip hip hip!
+  dialogueManager: {fileID: 1436753917}
 --- !u!95 &1975160826
 Animator:
   serializedVersion: 5
@@ -124875,6 +125123,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: 
+  dialogueManager: {fileID: 0}
 --- !u!95 &1985148087
 Animator:
   serializedVersion: 5
@@ -124957,7 +125207,7 @@ Transform:
   m_GameObject: {fileID: 1985148084}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.29, y: -3.4, z: -10.4432}
+  m_LocalPosition: {x: 29.45, y: -3.04, z: -10.4432}
   m_LocalScale: {x: 0.052457962, y: 0.052457962, z: 0.052457962}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -125716,6 +125966,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
+  dialogueText: "Elles sont vraiment belles ces \xE9toiles, si brillantes qu'elles
+    me rappellent les pommes dor\xE9es des jardins, celles qu'Hercule parvint \xE0
+    voler sous le nez du dragon"
+  dialogueManager: {fileID: 1436753917}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -125728,6 +125982,7 @@ SceneRoots:
   - {fileID: 139774298}
   - {fileID: 311118060}
   - {fileID: 844800697}
+  - {fileID: 1670214907}
   - {fileID: 2092058078}
   - {fileID: 1035277942}
   - {fileID: 56847520}

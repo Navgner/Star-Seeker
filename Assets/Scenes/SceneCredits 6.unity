@@ -863,6 +863,7 @@ MonoBehaviour:
   - Scientific information
   - SceneCredits
   - MainMenu
+  excludedScenes: []
 --- !u!4 &1279150740
 Transform:
   m_ObjectHideFlags: 0
