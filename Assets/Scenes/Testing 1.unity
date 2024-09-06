@@ -2707,7 +2707,7 @@ MonoBehaviour:
   dialogueText: "Oh c\u2019est Albireo, le bec du Cygne. Zeus avait pris cette forme
     pour s\xE9duire une certaine L\xE9da. Quelle dr\xF4le d\u2019id\xE9e\_!\_Le pire
     c\u2019est que \xE7a a march\xE9\_! Est-ce que \xE7a veut dire que je dois faire
-    la m\xEAme chose?..."
+    la m\xEAme chose...?"
   dialogueManager: {fileID: 1436753917}
 --- !u!95 &825290021
 Animator:
@@ -4272,7 +4272,7 @@ MonoBehaviour:
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
   dialogueText: "Oh c\u2019est Eltanin, la plus lumineuse de Draco sans aucun doute
     ! Ladon peut se r\xE9veiller et faire dissiper ces t\xE9n\xE8bres d\xE8s que
-    j'ai r\xE9colt\xE9 le reste des \xE9toiles"
+    j'ai r\xE9colt\xE9 le reste des \xE9toiles."
   dialogueManager: {fileID: 1436753917}
 --- !u!95 &1055064182
 Animator:
@@ -124881,7 +124881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectSound: {fileID: 8300000, guid: d9c47249c046b5d449d992b0128e4c97, type: 3}
-  dialogueText: hip hip hip!
+  dialogueText: Hip hip hip!
   dialogueManager: {fileID: 1436753917}
 --- !u!95 &1975160826
 Animator:
