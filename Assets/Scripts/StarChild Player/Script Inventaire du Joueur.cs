@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerInventory : MonoBehaviour
 {
     public int totalCollectibles = 17;
-    private int collectedCount = 0;
+    private int collectedCount = -1;
     public UIManager uiManager;
 
     private void Start()
