@@ -356,7 +356,7 @@ RectTransform:
   m_GameObject: {fileID: 54706958}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2254058, y: 1.2254058, z: 1.2254058}
+  m_LocalScale: {x: 1.3120421, y: 1.3120421, z: 1.3120421}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 746802233}
@@ -1152,7 +1152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8743df17e8a2d44cbcf9d605deee399, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sceneToLoadOnPlay: Testing 1
+  _sceneToLoadOnPlay: Introduction
   _webpageURL: 
   _soundButtons:
   - {fileID: 0}
